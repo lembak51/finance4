@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'junit:junit:4.13.1'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '3.0.0'
+    implementation group: 'log4j', name: 'log4j', version: '1.2.16'
+    implementation group: 'com.google.inject', name: 'guice', version: '4.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+    implementation group: 'io.cucumber', name: 'cucumber-junit', version: '7.16.0'
+    implementation group: 'io.cucumber', name: 'cucumber-java', version: '7.16.1'
+    testImplementation group: 'org.hamcrest', name: 'java-hamcrest', version: '2.0.0.0'
+    implementation 'org.jsoup:jsoup:1.14.3'
+}

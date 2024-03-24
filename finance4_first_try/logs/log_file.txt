@@ -1,0 +1,226 @@
+2024-03-24 17:53:36 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 17:53:36 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 17:53:39 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 17:53:41 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 17:53:45 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 18:00:56 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 18:00:56 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 18:01:02 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 18:01:02 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 18:01:05 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:20:51 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:20:51 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:20:58 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:20:58 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:21:00 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:22:57 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:22:57 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:22:57 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:22:58 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:22:59 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:24:58 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:24:58 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:24:59 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:24:59 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:25:01 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:26:18 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:26:18 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:26:19 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:26:19 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:26:21 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:31:15 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:31:15 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:31:17 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:31:17 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:31:20 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 19:36:11 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 19:36:12 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 19:36:14 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 19:36:15 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 19:36:17 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 20:19:21 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 20:19:21 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 20:19:24 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 20:19:24 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 20:19:30 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 20:23:04 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 20:23:04 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 20:23:13 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 20:23:15 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 20:23:18 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 20:29:36 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 20:29:37 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 20:29:39 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 20:29:39 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 20:29:44 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 20:32:11 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 20:32:12 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 20:32:13 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 20:32:14 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 20:32:17 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 23:26:22 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 23:26:22 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 23:26:27 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:26:28 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 23:26:30 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 23:26:38 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:26:38 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:27:50 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 23:27:51 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 23:27:52 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:27:53 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 23:27:56 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 23:28:04 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:28:04 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:32:13 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 23:32:14 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 23:32:16 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:32:16 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 23:32:19 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 23:32:31 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:33:41 INFO  page.HomePage:53 - Clicking on element: Language drop down
+2024-03-24 23:33:42 INFO  page.HomePage:53 - Clicking on element: English drop down option
+2024-03-24 23:33:44 INFO  page.HomePage:44 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:33:45 INFO  page.HomePage:53 - Clicking on element: Search button 
+2024-03-24 23:33:47 INFO  page.SearchResultPage:53 - Clicking on element: Text present
+2024-03-24 23:33:55 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:33:55 INFO  page.BookDetailsPage:35 - Getting text of element: Author inscription 
+2024-03-24 23:38:33 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:38:33 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:38:40 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:38:42 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:38:44 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:39:42 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:39:42 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:39:47 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:39:48 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:39:56 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:40:03 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:40:03 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:41:14 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:41:15 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:41:16 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:41:17 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:41:20 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:41:27 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:41:27 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:41:27 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:41:27 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:55:13 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:55:15 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:55:16 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:55:17 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:55:19 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:55:26 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:55:26 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:55:26 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:55:26 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:56:12 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:56:13 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:56:15 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:56:15 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:56:18 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:56:25 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:56:25 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:56:25 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:56:25 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:57:37 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-24 23:57:38 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-24 23:57:44 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-24 23:57:45 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-24 23:57:47 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-24 23:59:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-24 23:59:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:02:54 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:02:55 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:02:58 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:02:59 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:03:02 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:03:09 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:03:09 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:03:09 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:03:09 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:05:36 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:05:37 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:05:38 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:05:39 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:05:41 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:05:51 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:05:51 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:10:44 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:10:45 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:10:49 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:10:50 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:10:53 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:11:05 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:11:05 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:11:05 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:11:05 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:12:28 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:12:29 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:12:31 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:12:31 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:12:34 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:12:40 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:12:40 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:12:40 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:12:40 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:15:05 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:15:05 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:15:07 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:15:07 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:15:10 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:15:55 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:15:55 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:16:03 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:16:05 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:16:08 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:16:15 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:16:15 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:16:15 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:16:15 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:17:15 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:17:16 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:17:17 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:17:17 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:17:20 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:17:32 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:17:32 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:17:32 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:17:32 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:24:34 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:24:35 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:24:36 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:24:37 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:24:42 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:24:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:24:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:24:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:24:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:34:36 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:34:37 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:34:42 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:34:43 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:34:46 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:34:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:34:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:34:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:34:54 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:38:35 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:38:36 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:38:38 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:38:39 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:38:41 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:38:48 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:38:48 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:38:48 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:38:49 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:44:13 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:44:13 INFO  page.HomePage:50 - Clicking on element: English drop down option
+2024-03-25 00:44:20 INFO  page.HomePage:41 - Entering text "Control Your Mind and Master Your Feelings" to element: Search field 
+2024-03-25 00:44:21 INFO  page.HomePage:50 - Clicking on element: Search button 
+2024-03-25 00:44:24 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+2024-03-25 00:44:34 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:44:34 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:44:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+2024-03-25 00:44:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 

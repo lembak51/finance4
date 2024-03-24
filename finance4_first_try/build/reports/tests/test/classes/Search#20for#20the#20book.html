@@ -1,0 +1,3048 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Search for the book</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Search for the book</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Search for the book</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">34.555s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Search some book</td>
+<td class="success">34.555s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+Scenario: Search some book                                                ?[90m# src/test/resources/feature.search/product_search.feature:4?[0m
+  ?[32mGiven ?[0m?[32mopen home page?[0m                                                    ?[90m# stepdefinitions.stepDefinitions.open_home_page()?[0m
+2024-03-25 00:44:13 INFO  page.HomePage:50 - Clicking on element: Language drop down
+2024-03-25 00:44:13 INFO  page.HomePage:50 - Clicking on element: English drop down option
+  ?[32mAnd ?[0m?[32mselect english language?[0m                                             ?[90m# stepdefinitions.stepDefinitions.enSelected()?[0m
+2024-03-25 00:44:20 INFO  page.HomePage:41 - Entering text &quot;Control Your Mind and Master Your Feelings&quot; to element: Search field 
+2024-03-25 00:44:21 INFO  page.HomePage:50 - Clicking on element: Search button 
+  ?[32mWhen ?[0m?[32muser searches book by ?[0m?[32m?[1m&quot;Control Your Mind and Master Your Feelings&quot;?[0m ?[90m# stepdefinitions.stepDefinitions.searchBookByName(java.lang.String)?[0m
+2024-03-25 00:44:24 INFO  page.SearchResultPage:50 - Clicking on element: Text present
+  ?[32mWhen ?[0m?[32mopen book by ?[0m?[32m?[1m&quot;2018&quot;?[0m                                                ?[90m# stepdefinitions.stepDefinitions.clickOnBookByYear(java.lang.String)?[0m
+
+
+&lt;!DOCTYPE html&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;&quot;&gt;
+&lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+    &lt;meta name=&quot;title&quot; content=&quot;&quot; /&gt;
+    &lt;meta name=&quot;keywords&quot; content=&quot;free books, books to read, free ebooks, audio books, read books for free, read books online, online library&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;meta name=&quot;author&quot; content=&quot;OpenLibrary.org&quot; /&gt;
+    &lt;meta name=&quot;creator&quot; content=&quot;OpenLibrary.org&quot; /&gt;
+    &lt;meta name=&quot;copyright&quot; content=&quot;Original content copyright; 2007-2015&quot; /&gt;
+    &lt;meta name=&quot;distribution&quot; content=&quot;Global&quot; /&gt;
+    &lt;meta name=&quot;theme-color&quot; content=&quot;#e2dcc5&quot;&gt;
+
+
+    &lt;link rel=&quot;canonical&quot; href=&quot;https://openlibrary.org/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings?edition=key%253A%2Fbooks%2FOL33899062M&quot; /&gt;
+    &lt;link rel=&quot;preconnect&quot; href=&quot;https://analytics.archive.org&quot;&gt;
+
+    &lt;link rel=&quot;search&quot; type=&quot;application/opensearchdescription+xml&quot; title=&quot;Open Library&quot; href=&quot;/static/opensearch.xml&quot;&gt;
+    &lt;link rel=&quot;manifest&quot; href=&quot;/static/manifest.json&quot;&gt;
+
+    &lt;link href=&quot;/static/images/openlibrary-128x128.png&quot; rel=&quot;apple-touch-icon&quot; /&gt;
+    &lt;link href=&quot;/static/images/openlibrary-152x152.png&quot; rel=&quot;apple-touch-icon&quot; sizes=&quot;152x152&quot; /&gt;
+    &lt;link href=&quot;/static/images/openlibrary-167x167.png&quot; rel=&quot;apple-touch-icon&quot; sizes=&quot;167x167&quot; /&gt;
+    &lt;link href=&quot;/static/images/openlibrary-180x180.png&quot; rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; /&gt;
+    &lt;link href=&quot;/static/images/openlibrary-192x192.png&quot; rel=&quot;icon&quot; sizes=&quot;192x192&quot; /&gt;
+    &lt;link href=&quot;/static/images/openlibrary-128x128.png&quot; rel=&quot;icon&quot; sizes=&quot;128x128&quot; /&gt;
+    &lt;link href=&quot;/static/build/page-book.css?v=d7c40ed69e8cf694c8a22914a843099c&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; /&gt;
+
+    &lt;noscript&gt;
+      &lt;style&gt;
+        /* Don't hide content with clamp if no js to show more/less */
+        .clamp {
+          -webkit-line-clamp: unset !important;
+        }
+
+        /* Don't show read-more sections collapsed */
+        .read-more__content {
+          max-height: unset !important;
+        }
+        /* Don't show read-more toggle buttons */
+        .read-more__toggle {
+          display: none !important;
+        }
+
+        /* @width-breakpoint-tablet media query: */
+        @media only screen and (min-width: 768px) {
+          /* Sticky navbar to top of screen if compact title cannot be stickied */
+          .work-menu {
+            top: 0 !important;
+          }
+        }
+      &lt;/style&gt;
+    &lt;/noscript&gt;
+ &lt;script&gt;
+
+/* @licstart  The following is the entire license notice for the
+ * JavaScript code in this page.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.
+ *
+ * @licend  The above is the entire license notice
+ * for the JavaScript code in this page.
+ */
+
+  &lt;/script&gt;
+
+    &lt;!-- JavaScript execution queue that will be emptied at the bottom of the page --&gt;
+    &lt;script type=&quot;text/javascript&quot;&gt;window.q = [];&lt;/script&gt;
+    &lt;meta name=&quot;google-site-verification&quot; content=&quot;KrqcZD4l5BLNVyjzSi2sjZBiwgmkJ1W7n6w7ThD7A74&quot; /&gt;
+    &lt;meta name=&quot;google-site-verification&quot; content=&quot;vtXGm8q3UgP-f6qXTvQBo85uh3nmIYIotVqqdJDpyz4&quot; /&gt;
+    &lt;!-- Drini, Google Search Console --&gt;
+    &lt;meta name=&quot;google-site-verification&quot; content=&quot;XYOJ9Uj0MBr6wk7kj1IkttXrqY-bbRstFMADTfEt354&quot; /&gt;
+
+
+
+
+
+
+
+    &lt;meta name=&quot;description&quot; content=&quot;Control Your Mind and Master Your Feelings by Eric Robertson - undifferentiated, unknown edition, &quot; /&gt;
+    &lt;title&gt;Control Your Mind and Master Your Feelings by Eric Robertson - undifferentiated | Open Library&lt;/title&gt;
+
+    &lt;meta property=&quot;og:title&quot; content=&quot;Control Your Mind and Master Your Feelings by Eric Robertson - undifferentiated | Open Library&quot; /&gt;
+    &lt;meta property=&quot;og:type&quot; content=&quot;books.book&quot; /&gt;
+    &lt;meta property=&quot;og:image&quot; content=&quot;https://openlibrary.org/images/icons/avatar_book-sm.png&quot; /&gt;
+    &lt;meta property=&quot;og:url&quot; content=&quot;https://openlibrary.org/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings?edition=key%253A%2Fbooks%2FOL33899062M&quot; /&gt;
+    &lt;meta property=&quot;og:site_name&quot; content=&quot;Open Library&quot; /&gt;
+    &lt;meta property=&quot;og:description&quot; content=&quot;Control Your Mind and Master Your Feelings by Eric Robertson - undifferentiated, unknown edition, &quot; /&gt;
+    &lt;link rel=&quot;preload&quot; as=&quot;image&quot; href=&quot;/images/icons/avatar_book.png&quot; imagesrcset=&quot;/images/icons/avatar_book-lg.png 2x&quot; /&gt;
+&lt;/head&gt;
+
+
+
+
+&lt;body class=&quot;&quot; &gt;
+  &lt;script&gt;
+      // Provide a signal that JS will load
+      document.body.className += ' client-js';
+  &lt;/script&gt;
+  &lt;span id=&quot;top&quot;&gt;&lt;/span&gt;
+  &lt;div id=&quot;offline-info&quot;&gt;It looks like you&amp;#39;re offline.&lt;/div&gt;
+  
+  
+  
+    &lt;div id=&quot;donato&quot;&gt;&lt;/div&gt;
+    &lt;script src=&quot;/cdn/archive.org/donate.js&quot; data-platform=&quot;ol&quot;&gt;&lt;/script&gt;
+    
+
+&lt;div id=&quot;topNotice&quot;&gt;
+  &lt;div class=&quot;page-banner page-banner-black page-banner-center&quot;&gt;
+    &lt;div class=&quot;iaBar&quot;&gt;
+        &lt;a class=&quot;iaLogo&quot; href=&quot;https://archive.org&quot;&gt;&lt;img alt=&quot;Internet Archive logo&quot; src=&quot;/static/images/ia-logo.svg&quot; width=&quot;160&quot;&gt;&lt;/a&gt;
+        &lt;a class=&quot;ghost-btn&quot; href=&quot;https://archive.org/donate/?platform=ol&amp;origin=olwww-TopNavDonateButton&quot; data-ol-link-track=&quot;IABar|DonateButton&quot;&gt;Donate &lt;span class=&quot;heart&quot; aria-hidden=&quot;true&quot;&gt;♥&lt;/span&gt;&lt;/a&gt;
+      &lt;div class=&quot;language-component header-dropdown&quot;&gt;
+        &lt;details&gt;
+          &lt;summary&gt;
+            &lt;img class=&quot;translate-icon&quot; src=&quot;/static/images/language-icon.svg&quot; title=&quot;Change Website Language&quot; alt=&quot;Change Website Language&quot;/&gt;
+          &lt;/summary&gt;
+          &lt;div class=&quot;language-dropdown-component&quot;&gt;
+            
+&lt;ul class=&quot;locale-options dropdown-menu&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;cs&quot; data-lang-id=&quot;cs&quot; title=&quot;Czech&quot;&gt;Čeština (cs)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;de&quot; data-lang-id=&quot;de&quot; title=&quot;German&quot;&gt;Deutsch (de)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;en&quot; data-lang-id=&quot;en&quot; title=&quot;English&quot;&gt;English (en)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;es&quot; data-lang-id=&quot;es&quot; title=&quot;Spanish&quot;&gt;Español (es)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;fr&quot; data-lang-id=&quot;fr&quot; title=&quot;French&quot;&gt;Français (fr)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;hr&quot; data-lang-id=&quot;hr&quot; title=&quot;Croatian&quot;&gt;Hrvatski (hr)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;it&quot; data-lang-id=&quot;it&quot; title=&quot;Italian&quot;&gt;Italiano (it)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;pt&quot; data-lang-id=&quot;pt&quot; title=&quot;Portuguese&quot;&gt;Português (pt)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;hi&quot; data-lang-id=&quot;hi&quot; title=&quot;Hindi&quot;&gt;हिंदी (hi)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;sc&quot; data-lang-id=&quot;sc&quot; title=&quot;Sardinian&quot;&gt;Sardu (sc)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;te&quot; data-lang-id=&quot;te&quot; title=&quot;Telugu&quot;&gt;తెలుగు (te)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;uk&quot; data-lang-id=&quot;uk&quot; title=&quot;Ukrainian&quot;&gt;Українська (uk)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;zh&quot; data-lang-id=&quot;zh&quot; title=&quot;Chinese&quot;&gt;中文 (zh)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+          &lt;/div&gt;
+        &lt;/details&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  
+&lt;header id=&quot;header-bar&quot; class=&quot;header-bar&quot;&gt;
+
+
+
+  &lt;div class=&quot;logo-component&quot;&gt;
+    &lt;a href=&quot;/&quot; title=&quot;The Internet Archive&amp;#39;s Open Library: One page for every book&quot;&gt;
+      &lt;div class=&quot;logo-txt&quot;&gt;
+        &lt;img class=&quot;logo-icon&quot; src=&quot;/static/images/openlibrary-logo-tighter.svg&quot;
+          width=&quot;189&quot; height=&quot;47&quot;
+          alt=&quot;Open Library logo&quot;/&gt;
+      &lt;/div&gt;
+    &lt;/a&gt;
+  &lt;/div&gt;
+
+
+  &lt;ul class=&quot;navigation-component&quot;&gt;
+    &lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;mybooks-component header-dropdown&quot;&gt;
+  &lt;a href=&quot;/account/books&quot; data-ol-link-track=MainNav|MyBooks&gt;My Books&lt;/a&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+    &lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;browse-component header-dropdown&quot;&gt;
+  &lt;details&gt;
+    &lt;summary &gt;
+      Browse
+      &lt;span class=&quot;shift&quot;&gt;Menu&lt;/span&gt;
+      
+      &lt;img class=&quot;down-arrow&quot; aria-hidden=&quot;true&quot; src=&quot;/static/images/down-arrow.png&quot; alt=&quot;&quot; role=&quot;presentation&quot; width=&quot;7&quot; height=&quot;4&quot;&gt;
+    &lt;/summary&gt;
+    &lt;div
+    class=&quot;browse-dropdown-component navigation-dropdown-component&quot;
+    &gt;
+      &lt;ul class=&quot;dropdown-menu browse-dropdown-menu&quot;&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/subjects&quot; data-ol-link-track=MainNav|Subjects&gt;
+          Subjects
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/trending&quot; data-ol-link-track=MainNav|Trending&gt;
+          Trending
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/explore&quot; data-ol-link-track=MainNav|Explore&gt;
+          Library Explorer
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/lists&quot; data-ol-link-track=MainNav|Lists&gt;
+          Lists
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/collections&quot; data-ol-link-track=MainNav|Collections&gt;
+          Collections
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/k-12&quot; data-ol-link-track=MainNav|K12Library&gt;
+          K-12 Student Library
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/booktalks&quot; data-ol-link-track=MainNav|BookTalks&gt;
+          Book Talks
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/random&quot; data-ol-link-track=MainNav|RandomBook&gt;
+          Random Book
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/advancedsearch&quot; data-ol-link-track=MainNav|AdvancedSearch&gt;
+          Advanced Search
+        &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+  &lt;/ul&gt;
+
+  &lt;div class=&quot;search-component&quot;&gt;
+    &lt;div class=&quot;search-bar-component&quot;&gt;
+      &lt;div class=&quot;search-bar&quot;&gt;
+        &lt;div class=&quot;search-facet&quot;&gt;
+          &lt;label class=&quot;search-facet-selector&quot;&gt;
+            &lt;span aria-hidden=&quot;true&quot; class=&quot;search-facet-value&quot;&gt;&lt;/span&gt;
+            &lt;select aria-label=&quot;Search by&quot;&gt;
+              &lt;option value='all'&gt;All&lt;/option&gt;
+              &lt;option value='title'&gt;Title&lt;/option&gt;
+              &lt;option value='author'&gt;Author&lt;/option&gt;
+              &lt;option value='text'&gt;Text&lt;/option&gt;
+              &lt;option value='subject'&gt;Subject&lt;/option&gt;
+              &lt;option value='lists'&gt;Lists&lt;/option&gt;
+              &lt;option value='advanced'&gt;Advanced&lt;/option&gt;
+            &lt;/select&gt;
+          &lt;/label&gt;
+        &lt;/div&gt;
+        &lt;form class=&quot;search-bar-input&quot; action=&quot;/search&quot; method=&quot;get&quot;&gt;
+          &lt;input type=&quot;text&quot; name=&quot;q&quot; placeholder=&quot;Search&quot; aria-label=&quot;Search&quot; autocomplete=&quot;off&quot;&gt;
+          &lt;input name=&quot;mode&quot; type=&quot;checkbox&quot; aria-hidden=&quot;true&quot; aria-label=&quot;Search checkbox&quot; checked=&quot;checked&quot; value=&quot;&quot; id=&quot;ftokenstop&quot; class=&quot;hidden instantsearch-mode&quot;&gt;
+          &lt;input type=&quot;submit&quot; value=&quot;&quot; class=&quot;search-bar-submit&quot; aria-label=&quot;Search submit&quot;&gt;
+          &lt;div class=&quot;vertical-separator&quot;&gt;&lt;/div&gt;
+          &lt;a
+            id=&quot;barcode_scanner_link&quot;
+            class=&quot;search-by-barcode-submit&quot;
+            aria-label=&quot;Search by barcode&quot;
+            title=&quot;Search by barcode&quot;
+            href=&quot;/barcodescanner?returnTo=/isbn/$$$&quot;
+          &gt;
+          &lt;/a&gt;
+        &lt;/form&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;search-dropdown&quot;&gt;
+        &lt;ul class=&quot;search-results&quot;&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;ul class=&quot;auth-component&quot;&gt;
+    &lt;li class=&quot;hide-me&quot;&gt;
+      &lt;a class=&quot;btn&quot;
+         href=&quot;/account/login&quot;&gt;Log In&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class=&quot;btn primary&quot; href=&quot;/account/create&quot;&gt;Sign Up&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;hamburger-component header-dropdown&quot;&gt;
+  &lt;details&gt;
+    &lt;summary data-ol-link-track=&quot;HeaderBar|Hamburger&quot;&gt;
+      &lt;img class=&quot;hamburger__icon&quot; src=&quot;/static/images/hamburger-icon.svg&quot; alt=&quot;additional options menu&quot;/&gt;
+      &lt;img class=&quot;down-arrow&quot; aria-hidden=&quot;true&quot; src=&quot;/static/images/down-arrow.png&quot; alt=&quot;&quot; role=&quot;presentation&quot; width=&quot;7&quot; height=&quot;4&quot;&gt;
+    &lt;/summary&gt;
+    &lt;div class=&quot;mask-menu&quot;&gt;&lt;/div&gt;
+    &lt;div
+    class=&quot;app-drawer&quot;
+    &gt;
+      &lt;ul class=&quot;dropdown-menu hamburger-dropdown-menu&quot;&gt;
+        &lt;li class=&quot;subsection&quot;&gt;
+          My Open Library
+        &lt;/li&gt;
+        &lt;li class=&quot;login-links&quot;&gt;
+          &lt;a class=&quot;login-links__secondary&quot; href=&quot;/account/login&quot;&gt;Log In&lt;/a&gt;
+          &lt;a class=&quot;login-links__primary&quot; href=&quot;/account/create&quot;&gt;Sign Up&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;subsection&quot;&gt;
+          Browse
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/subjects&quot; data-ol-link-track=Hamburger|Subjects&gt;
+          Subjects
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/trending&quot; data-ol-link-track=Hamburger|Trending&gt;
+          Trending
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/explore&quot; data-ol-link-track=Hamburger|Explore&gt;
+          Library Explorer
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/lists&quot; data-ol-link-track=Hamburger|Lists&gt;
+          Lists
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/collections&quot; data-ol-link-track=Hamburger|Collections&gt;
+          Collections
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/k-12&quot; data-ol-link-track=Hamburger|K12Library&gt;
+          K-12 Student Library
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/booktalks&quot; data-ol-link-track=Hamburger|BookTalks&gt;
+          Book Talks
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/random&quot; data-ol-link-track=Hamburger|RandomBook&gt;
+          Random Book
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/advancedsearch&quot; data-ol-link-track=Hamburger|AdvancedSearch&gt;
+          Advanced Search
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;subsection&quot;&gt;
+          Contribute
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/books/add&quot; data-ol-link-track=Hamburger|AddBook&gt;
+          Add a Book
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/recentchanges&quot; data-ol-link-track=Hamburger|RecentEdits&gt;
+          Recent Community Edits
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;subsection&quot;&gt;
+          Resources
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/help&quot; data-ol-link-track=Hamburger|Help&gt;
+          Help &amp;amp; Support
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/developers&quot; data-ol-link-track=Hamburger|DevelopersHelp&gt;
+          Developer Center
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/librarians&quot; data-ol-link-track=Hamburger|LibrariansHelp&gt;
+          Librarians Portal
+        &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+&lt;/div&gt;
+
+
+&lt;/header&gt;
+&lt;header class=&quot;header-bar mobile&quot;&gt;
+  &lt;ul class=&quot;navigation-component mobile&quot;&gt;
+    &lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;mybooks-component header-dropdown&quot;&gt;
+  &lt;a href=&quot;/account/books&quot; data-ol-link-track=MainNav|MyBooks&gt;My Books&lt;/a&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+    &lt;li&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;browse-component header-dropdown&quot;&gt;
+  &lt;details&gt;
+    &lt;summary &gt;
+      Browse
+      &lt;span class=&quot;shift&quot;&gt;Menu&lt;/span&gt;
+      
+      &lt;img class=&quot;down-arrow&quot; aria-hidden=&quot;true&quot; src=&quot;/static/images/down-arrow.png&quot; alt=&quot;&quot; role=&quot;presentation&quot; width=&quot;7&quot; height=&quot;4&quot;&gt;
+    &lt;/summary&gt;
+    &lt;div
+    class=&quot;browse-dropdown-component navigation-dropdown-component&quot;
+    &gt;
+      &lt;ul class=&quot;dropdown-menu browse-dropdown-menu&quot;&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/subjects&quot; data-ol-link-track=MainNav|Subjects&gt;
+          Subjects
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/trending&quot; data-ol-link-track=MainNav|Trending&gt;
+          Trending
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/explore&quot; data-ol-link-track=MainNav|Explore&gt;
+          Library Explorer
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/lists&quot; data-ol-link-track=MainNav|Lists&gt;
+          Lists
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/collections&quot; data-ol-link-track=MainNav|Collections&gt;
+          Collections
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/k-12&quot; data-ol-link-track=MainNav|K12Library&gt;
+          K-12 Student Library
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/booktalks&quot; data-ol-link-track=MainNav|BookTalks&gt;
+          Book Talks
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/random&quot; data-ol-link-track=MainNav|RandomBook&gt;
+          Random Book
+        &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+        &lt;a href=&quot;/advancedsearch&quot; data-ol-link-track=MainNav|AdvancedSearch&gt;
+          Advanced Search
+        &lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+  &lt;/details&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/header&gt;
+
+  
+  &lt;div id=&quot;test-body-mobile&quot;&gt;
+    
+    &lt;div class=&quot;flash-messages&quot;&gt;
+    &lt;/div&gt;
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;!-- Open graph tags handle card for both twitter and facebook --&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div id=&quot;contentBody&quot; role=&quot;main&quot; itemscope itemtype=&quot;https://schema.org/Book&quot;&gt;
+  &lt;div class=&quot;workDetails&quot;&gt;
+    &lt;link itemprop=&quot;exampleOfWork&quot; href=&quot;/works/OL25312237W&quot;&gt;
+    
+    &lt;!-- (mobile only) --&gt;
+    
+
+&lt;span class=&quot;nav-bar-wrapper sticky mobile-only&quot;&gt;
+  &lt;ul class=&quot;nav-bar work-menu&quot;&gt;
+    &lt;li class=&quot;selected&quot;&gt;
+      &lt;a href=&quot;#overview-mobile&quot; data-ol-link-track=&quot;BookPageNav|Overview&quot;&gt;Overview&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#editions-list&quot; data-ol-link-track=&quot;BookPageNav|EditionTable&quot;&gt;
+        View 2 Editions
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#details&quot; data-ol-link-track=&quot;BookPageNav|Details&quot;&gt;Details&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#reader-observations&quot; data-ol-link-track=&quot;BookPageNav|Reviews&quot;&gt;
+        17 Reviews
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#lists-section&quot; data-ol-link-track=&quot;BookPageNav|Lists&quot;&gt;Lists&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#related-work-carousel&quot; data-ol-link-track=&quot;BookPageNav|RelatedBooks&quot;&gt;Related Books&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;span class=&quot;nav-arrow&quot;&gt;
+    &lt;img src=&quot;/static/images/nav-arrow.svg&quot; role=&quot;img&quot;&gt;
+  &lt;/span&gt;
+&lt;/span&gt;
+
+    &lt;a id=&quot;overview-mobile&quot; name=&quot;overview-mobile&quot; class=&quot;section-anchor section-anchor--no-height&quot;&gt;&lt;/a&gt;
+    
+&lt;div class=&quot;work-title-and-author mobile&quot;&gt;
+  &lt;span&gt;
+    &lt;div class=&quot;work-line&quot;&gt;
+        An edition of &lt;a href=&quot;/works/OL25312237W?edition=&quot;&gt;Control Your Mind and Master Your Feelings&lt;/a&gt;
+        &lt;span class=&quot;first-published-date&quot; title=&quot;First published in 2018&quot;&gt;
+          (2018)
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;h1 class=&quot;work-title&quot; itemprop=&quot;name&quot;&gt;Control Your Mind and Master Your Feelings&lt;/h1&gt;
+
+    &lt;h2 class=&quot;edition-byline&quot;&gt;
+      
+by &lt;a href=&quot;/authors/OL1573400A/Eric_Robertson_-_undifferentiated&quot; itemprop=&quot;author&quot;&gt;Eric Robertson - undifferentiated&lt;/a&gt;
+
+    &lt;/h2&gt;
+    
+
+&lt;ul class=&quot;readers-stats  &quot; itemprop=&quot;aggregateRating&quot; itemscope itemtype=&quot;https://schema.org/AggregateRating&quot;&gt;
+  &lt;li class=&quot;avg-ratings&quot; onclick=&quot;location.href='#starRatingSection';&quot; data-ol-link-track=&quot;StarRating|StatsComponentClick&quot;&gt;
+    &lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;
+    &lt;span class=&quot;readers-stats__star--half&quot;&gt;★&lt;/span&gt;
+    &lt;span itemprop=&quot;ratingValue&quot;&gt;3.74&lt;/span&gt;
+    &lt;span class=&quot;dot&quot;&gt;·&lt;/span&gt;
+  &lt;/li&gt;
+
+  &lt;li class=&quot;readers-stats__review-count&quot;&gt;
+    &lt;span itemprop=&quot;reviewCount&quot;&gt;212&lt;/span&gt; Ratings
+  &lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;7359&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Want to read&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;576&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Currently reading&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;281&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Have read&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/span&gt;
+
+  
+  
+
+
+
+
+
+&lt;div class=&quot;&quot;&gt;
+  
+&lt;a href=&quot;javascript:;&quot; class=&quot;share-modal-link icon-link&quot; data-ol-link-track=ModalLinkClick|ShareIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/share.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+
+  &lt;div class=&quot;hidden&quot;&gt;
+    &lt;div id=&quot;social-modal-content&quot; class=&quot;floaterAdd&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;div class=&quot;floaterHead right-justify&quot;&gt;
+          &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;shareLinks cta-section&quot;&gt;
+          &lt;ul class=&quot;shareLinks-list&quot;&gt;
+              &lt;li&gt;
+                &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Facebook&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Facebook&quot;
+                    alt=&quot;Facebook&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/facebook.svg?v=2221df78e6776d3671b56fbed6732cd7&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Facebook&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;via=openlibrary&amp;amp;text=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Twitter&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Twitter&quot;
+                    alt=&quot;Twitter&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/twitter.svg?v=ec50fd8c4aa8205ba33750f580e76a5b&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Twitter&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;description=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Pinterest&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Pinterest&quot;
+                    alt=&quot;Pinterest&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/pinterest.svg?v=df62fe57a8c7caabbcc722e7b59b7367&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Pinterest&lt;/div&gt;
+              &lt;/li&gt;
+              
+            &lt;li&gt;
+              
+              &lt;a class=&quot;embed-work-btn&quot; title=&quot;Embed this book in your website&quot; data-ol-link-track=&quot;Share|Embed&quot;
+                onclick=&quot;prompt('Copy embed code to clipboard:', '&amp;lt;iframe frameborder=&amp;quot;0&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;400&amp;quot; src=&amp;quot;//openlibrary.org/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings/widget&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;');&quot;&gt;
+                &lt;img
+                  alt=&quot;Embed icon&quot;
+                  class=&quot;share-link&quot;
+                  src=&quot;/static/images/embed.png?v=3cfbbb4731c6f5c37e543bc98579f357&quot;
+                  loading=&quot;lazy&quot;
+                &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Embed&lt;/div&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a class=&quot;copy-url-btn&quot; title=&quot;Copy url to clipboard&quot; data-ol-link-track=&quot;Share|CopyURL&quot;&gt;
+                  &lt;img
+                      alt=&quot;Copy URL icon&quot;
+                      class=&quot;share-link&quot;
+                      src=&quot;/static/images/copy_url.png?v=ee1e83c926d101bcf002dbfd4801f7e2&quot;
+                      loading=&quot;lazy&quot;
+                  &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Copy URL&lt;/div&gt;
+            &lt;/li&gt;
+
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+    &lt;div class=&quot;editionCover&quot;&gt;
+      
+
+&lt;div class=&quot;Tools&quot;&gt;
+  &lt;div id=&quot;read&quot;&gt;
+    &lt;div class=&quot;panel&quot;&gt;
+      &lt;div class=&quot;btn-notice read-options&quot; id=&quot;read-options&quot;&gt;
+
+        &lt;div class=&quot;illustration edition-cover&quot;&gt;
+          
+
+
+
+
+
+&lt;div class=&quot;coverMagic cover-animation&quot;&gt;
+    &lt;div class=&quot;SRPCover bookCover&quot; style=&quot;display: none;&quot;&gt;
+        &lt;a
+            href=&quot;&quot;
+            aria-controls=&quot;seeImage&quot;
+            class=&quot;coverLook dialog--open&quot;
+            title=&quot;Pull up a bigger book cover&quot;
+        &gt;
+
+            &lt;img
+                itemprop=&quot;image&quot;
+                src=&quot;/images/icons/avatar_book.png&quot;
+                srcset=&quot;/images/icons/avatar_book-lg.png 2x&quot;
+                class=&quot;cover&quot;
+                alt=&quot;Cover of: Control Your Mind and Master Your Feelings by &quot;
+            &gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;SRPCoverBlank&quot; style=&quot;display: block;&quot;&gt;
+        &lt;div class=&quot;innerBorder&quot;&gt;
+            &lt;div class=&quot;BookTitle&quot;&gt;
+Control Your Mind and Master Your Feelings 
+
+                &lt;div class=&quot;Author&quot;&gt;
+&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;hidden&quot;&gt;
+    &lt;div class=&quot;coverFloat&quot; id=&quot;seeImage&quot;&gt;
+        &lt;div class=&quot;coverFloatHead&quot;&gt;
+            &lt;h2&gt;
+Control Your Mind and Master Your Feelings 
+&lt;/h2&gt;
+            &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;a class=&quot;dialog--close&quot;&gt;&lt;img src=&quot;&quot; class=&quot;cover&quot; alt=&quot;Control Your Mind and Master Your Feelings by &quot;/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+          
+          
+        &lt;/div&gt;
+
+
+
+        
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;cta-button-group&quot;&gt;
+  &lt;span class=&quot;cta-btn cta-btn--no-pointer&quot;&gt;Not in Library&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;lists-widget-container&quot;&gt;
+
+
+
+&lt;input type=&quot;hidden&quot; name=&quot;list-i18n-strings&quot; value=&quot;{&amp;quot;cover_of&amp;quot;: &amp;quot;Cover of: &amp;quot;, &amp;quot;see_this_list&amp;quot;: &amp;quot;See this list&amp;quot;, &amp;quot;remove_from_list&amp;quot;: &amp;quot;Remove from your list?&amp;quot;, &amp;quot;from&amp;quot;: &amp;quot;from&amp;quot;, &amp;quot;you&amp;quot;: &amp;quot;You&amp;quot;}&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;generic-dropper-wrapper my-books-dropper generic-dropper--disabled&quot;&gt;
+  &lt;div class=&quot;generic-dropper&quot;&gt;
+    &lt;div class=&quot;generic-dropper__actions&quot;&gt;
+      &lt;div class=&quot;generic-dropper__primary&quot;&gt;
+        
+&lt;form class=&quot;reading-log primary-action&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/bookshelves.json&quot;&gt;
+  
+
+  &lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;add&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;bookshelf_id&quot; value=&quot;1&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;work_id&quot; value=&quot;/works/OL25312237W&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;/books/OL50530408M&quot;/&gt;
+  &lt;button class=&quot;book-progress-btn primary-action unactivated&quot; type=&quot;submit&quot;&gt;
+    &lt;span class=&quot;activated-check hidden&quot;&gt;✓&lt;/span&gt;
+    &lt;span class=&quot;btn-text&quot;&gt;Want to Read&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/form&gt;
+
+
+
+      &lt;/div&gt;
+      &lt;a class=&quot;generic-dropper__dropclick&quot; href=&quot;javascript:;&quot;&gt;
+        &lt;div class=&quot;arrow&quot;&gt;&lt;/div&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;generic-dropper__dropdown&quot;&gt;
+      
+
+
+&lt;div class=&quot;read-statuses&quot;&gt;
+  &lt;form class=&quot;reading-log&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/bookshelves.json&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;remove&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;bookshelf_id&quot; value=&quot;-1&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;default-key&quot; value=&quot;/books/OL50530408M&quot; /&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;/books/OL50530408M&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;work_id&quot; value=&quot;/works/OL25312237W&quot;/&gt;
+    &lt;button class=&quot;remove-from-list hidden&quot; type=&quot;submit&quot;&gt;Remove From Shelf&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;form class=&quot;reading-log&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/bookshelves.json&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;add&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;bookshelf_id&quot; value=&quot;1&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;/books/OL50530408M&quot;/&gt;
+    &lt;button class=&quot;nostyle-btn hidden&quot; type=&quot;submit&quot;&gt;Want to Read&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;form class=&quot;reading-log&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/bookshelves.json&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;add&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;bookshelf_id&quot; value=&quot;2&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;/books/OL50530408M&quot;/&gt;
+    &lt;button class=&quot;nostyle-btn &quot; type=&quot;submit&quot;&gt;Currently Reading&lt;/button&gt;
+  &lt;/form&gt;
+
+  &lt;form class=&quot;reading-log&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/bookshelves.json&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;action&quot; value=&quot;add&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;bookshelf_id&quot; value=&quot;3&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;/books/OL50530408M&quot;/&gt;
+    &lt;button class=&quot;nostyle-btn &quot; type=&quot;submit&quot;&gt;Already Read&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div class=&quot;reading-lists&quot;&gt;
+  &lt;p class=&quot;reading-list-title&quot;&gt;My Reading Lists:&lt;/p&gt;
+  &lt;div class=&quot;my-lists&quot; data-seed-key=&quot;/books/OL50530408M&quot; data-work-key=&quot;/works/OL25312237W&quot; data-user-key=&quot;&quot;&gt;
+  &lt;/div&gt;
+  &lt;p class=&quot;create checkboxes&quot;&gt;
+    &lt;label&gt;
+      &lt;input type=&quot;checkbox&quot; class=&quot;work-checkbox&quot;/&gt;
+      &lt;span&gt;Use this Work&lt;/span&gt;
+    &lt;/label&gt;
+  &lt;/p&gt;
+  &lt;p class=&quot;create&quot;&gt;
+    &lt;a href=&quot;javascript:;&quot; class=&quot;create-new-list&quot; aria-controls=&quot;addList&quot;&gt;Create a new list&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/div&gt;
+
+
+
+&lt;div class=&quot;hidden&quot;&gt;
+  &lt;div class=&quot;floaterAdd&quot; id=&quot;addList&quot;&gt;
+    &lt;div class=&quot;floaterHead&quot;&gt;
+      &lt;h2&gt;Create a new list&lt;/h2&gt;
+      &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;form method=&quot;post&quot; class=&quot;floatform&quot; name=&quot;new-list&quot; id=&quot;create-list-form&quot;&gt;
+      &lt;div class=&quot;formElement&quot;&gt;
+        &lt;div class=&quot;label&quot;&gt;
+          &lt;label for=&quot;list_label&quot;&gt;Name:&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;input&quot;&gt;
+          &lt;input type=&quot;text&quot; name=&quot;list_label&quot; id=&quot;list_label&quot; class=&quot;text required&quot; value=&quot;&quot; required/&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;formElement&quot;&gt;
+        &lt;div class=&quot;label&quot;&gt;
+          &lt;label for=&quot;list_desc&quot;&gt;Description:&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;input&quot;&gt;
+          &lt;textarea name=&quot;list_desc&quot; id=&quot;list_desc&quot; rows=&quot;5&quot; cols=&quot;30&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;formElement&quot;&gt;
+        &lt;div class=&quot;input&quot;&gt;
+          &lt;button id=&quot;create-list-button&quot; type=&quot;submit&quot; class=&quot;larger&quot;&gt;Create new list&lt;/button&gt;
+          &amp;nbsp; &amp;nbsp;
+          &lt;a class=&quot;small dialog--close plain red&quot;&gt;Cancel&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/form&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div id=&quot;check-in-display-OL25312237W&quot; class=&quot;last-read-date hidden&quot;&gt;
+  &lt;span class=&quot;date-display&quot;&gt;
+    &lt;span class=&quot;read-label&quot;&gt;Read: &lt;/span&gt;
+    &lt;span class=&quot;check-in-date&quot;&gt;&lt;/span&gt;
+    &lt;a class=&quot;prompt-edit-date&quot; href=&quot;javascript:;&quot; data-work-olid=&quot;OL25312237W&quot; data-ol-link-track=&quot;CheckInPrompt|EditDate&quot;&gt;Edit&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;div id=&quot;prompt-OL25312237W&quot; class=&quot;check-in-prompt hidden&quot; data-work-olid=&quot;OL25312237W&quot;&gt;
+  &lt;span class=&quot;prompt-copy&quot;&gt;When did you finish this book?&lt;/span&gt;
+  &lt;span class=&quot;prompt-options&quot;&gt;
+    &lt;a class=&quot;prompt-current-year use-local-year&quot; href=&quot;javascript:;&quot; data-ol-link-track=&quot;CheckInPrompt|SetDateCurrentYear&quot; data-server-year=&quot;2024&quot;&gt;2024&lt;/a&gt;
+    &lt;a class=&quot;prompt-today&quot; href=&quot;javascript:;&quot; data-ol-link-track=&quot;CheckInPrompt|SetDateToday&quot;&gt;Today&lt;/a&gt;
+    &lt;a class=&quot;prompt-custom&quot; href=&quot;javascript:;&quot; data-ol-link-track=&quot;CheckInPrompt|SetDateCustom&quot;&gt;Other&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+&lt;dialog id=&quot;check-in-dialog-OL25312237W&quot; class=&quot;native-dialog&quot;&gt;
+  &lt;div class=&quot;floaterHead&quot;&gt;
+    &lt;h2&gt;Check-In&lt;/h2&gt;
+    &lt;a class=&quot;native-dialog--close&quot; href=&quot;javascript:;&quot;&gt;×&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  
+
+&lt;div class=&quot;check-in&quot; data-work-olid=&quot;OL25312237W&quot; data-event-type=&quot;3&quot;&gt;
+  &lt;form method=&quot;dialog&quot; class=&quot;check-in__form&quot; action=&quot;/works/OL25312237W/check-ins&quot; method=&quot;post&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;event_id&quot; value=&quot;&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;edition_key&quot; value=&quot;/books/OL50530408M&quot;&gt;
+    &lt;div&gt;
+      Add an optional check-in date.  Check-in dates are used to track yearly reading goals.
+    &lt;/div&gt;
+    &lt;div class=&quot;check-in__inputs&quot;&gt;
+      &lt;label class=&quot;check-in__label&quot;&gt;End Date:&lt;/label&gt;
+      &lt;span&gt;
+        &lt;label&gt;Year:&lt;/label&gt;
+        &lt;select class=&quot;check-in__select&quot; name=&quot;year&quot;&gt;
+          &lt;option value=&quot;&quot;&gt;Year&lt;/option&gt;
+          &lt;option class=&quot;hidden show-if-local-year&quot; value=&quot;2025&quot;&gt;2025&lt;/option&gt;
+          &lt;option value=&quot;2024&quot; &gt;2024&lt;/option&gt;
+          &lt;option value=&quot;2023&quot; &gt;2023&lt;/option&gt;
+          &lt;option value=&quot;2022&quot; &gt;2022&lt;/option&gt;
+          &lt;option value=&quot;2021&quot; &gt;2021&lt;/option&gt;
+          &lt;option value=&quot;2020&quot; &gt;2020&lt;/option&gt;
+          &lt;option value=&quot;2019&quot; &gt;2019&lt;/option&gt;
+          &lt;option value=&quot;2018&quot; &gt;2018&lt;/option&gt;
+          &lt;option value=&quot;2017&quot; &gt;2017&lt;/option&gt;
+          &lt;option value=&quot;2016&quot; &gt;2016&lt;/option&gt;
+          &lt;option value=&quot;2015&quot; &gt;2015&lt;/option&gt;
+          &lt;option value=&quot;2014&quot; &gt;2014&lt;/option&gt;
+          &lt;option value=&quot;2013&quot; &gt;2013&lt;/option&gt;
+          &lt;option value=&quot;2012&quot; &gt;2012&lt;/option&gt;
+          &lt;option value=&quot;2011&quot; &gt;2011&lt;/option&gt;
+          &lt;option value=&quot;2010&quot; &gt;2010&lt;/option&gt;
+          &lt;option value=&quot;2009&quot; &gt;2009&lt;/option&gt;
+          &lt;option value=&quot;2008&quot; &gt;2008&lt;/option&gt;
+          &lt;option value=&quot;2007&quot; &gt;2007&lt;/option&gt;
+          &lt;option value=&quot;2006&quot; &gt;2006&lt;/option&gt;
+          &lt;option value=&quot;2005&quot; &gt;2005&lt;/option&gt;
+          &lt;option value=&quot;2004&quot; &gt;2004&lt;/option&gt;
+          &lt;option value=&quot;2003&quot; &gt;2003&lt;/option&gt;
+          &lt;option value=&quot;2002&quot; &gt;2002&lt;/option&gt;
+          &lt;option value=&quot;2001&quot; &gt;2001&lt;/option&gt;
+          &lt;option value=&quot;2000&quot; &gt;2000&lt;/option&gt;
+          &lt;option value=&quot;1999&quot; &gt;1999&lt;/option&gt;
+          &lt;option value=&quot;1998&quot; &gt;1998&lt;/option&gt;
+          &lt;option value=&quot;1997&quot; &gt;1997&lt;/option&gt;
+          &lt;option value=&quot;1996&quot; &gt;1996&lt;/option&gt;
+          &lt;option value=&quot;1995&quot; &gt;1995&lt;/option&gt;
+          &lt;option value=&quot;1994&quot; &gt;1994&lt;/option&gt;
+          &lt;option value=&quot;1993&quot; &gt;1993&lt;/option&gt;
+          &lt;option value=&quot;1992&quot; &gt;1992&lt;/option&gt;
+          &lt;option value=&quot;1991&quot; &gt;1991&lt;/option&gt;
+          &lt;option value=&quot;1990&quot; &gt;1990&lt;/option&gt;
+          &lt;option value=&quot;1989&quot; &gt;1989&lt;/option&gt;
+          &lt;option value=&quot;1988&quot; &gt;1988&lt;/option&gt;
+          &lt;option value=&quot;1987&quot; &gt;1987&lt;/option&gt;
+          &lt;option value=&quot;1986&quot; &gt;1986&lt;/option&gt;
+          &lt;option value=&quot;1985&quot; &gt;1985&lt;/option&gt;
+          &lt;option value=&quot;1984&quot; &gt;1984&lt;/option&gt;
+          &lt;option value=&quot;1983&quot; &gt;1983&lt;/option&gt;
+          &lt;option value=&quot;1982&quot; &gt;1982&lt;/option&gt;
+          &lt;option value=&quot;1981&quot; &gt;1981&lt;/option&gt;
+          &lt;option value=&quot;1980&quot; &gt;1980&lt;/option&gt;
+          &lt;option value=&quot;1979&quot; &gt;1979&lt;/option&gt;
+          &lt;option value=&quot;1978&quot; &gt;1978&lt;/option&gt;
+          &lt;option value=&quot;1977&quot; &gt;1977&lt;/option&gt;
+          &lt;option value=&quot;1976&quot; &gt;1976&lt;/option&gt;
+          &lt;option value=&quot;1975&quot; &gt;1975&lt;/option&gt;
+          &lt;option value=&quot;1974&quot; &gt;1974&lt;/option&gt;
+          &lt;option value=&quot;1973&quot; &gt;1973&lt;/option&gt;
+          &lt;option value=&quot;1972&quot; &gt;1972&lt;/option&gt;
+          &lt;option value=&quot;1971&quot; &gt;1971&lt;/option&gt;
+          &lt;option value=&quot;1970&quot; &gt;1970&lt;/option&gt;
+          &lt;option value=&quot;1969&quot; &gt;1969&lt;/option&gt;
+          &lt;option value=&quot;1968&quot; &gt;1968&lt;/option&gt;
+          &lt;option value=&quot;1967&quot; &gt;1967&lt;/option&gt;
+          &lt;option value=&quot;1966&quot; &gt;1966&lt;/option&gt;
+          &lt;option value=&quot;1965&quot; &gt;1965&lt;/option&gt;
+          &lt;option value=&quot;1964&quot; &gt;1964&lt;/option&gt;
+          &lt;option value=&quot;1963&quot; &gt;1963&lt;/option&gt;
+          &lt;option value=&quot;1962&quot; &gt;1962&lt;/option&gt;
+          &lt;option value=&quot;1961&quot; &gt;1961&lt;/option&gt;
+          &lt;option value=&quot;1960&quot; &gt;1960&lt;/option&gt;
+          &lt;option value=&quot;1959&quot; &gt;1959&lt;/option&gt;
+          &lt;option value=&quot;1958&quot; &gt;1958&lt;/option&gt;
+          &lt;option value=&quot;1957&quot; &gt;1957&lt;/option&gt;
+          &lt;option value=&quot;1956&quot; &gt;1956&lt;/option&gt;
+          &lt;option value=&quot;1955&quot; &gt;1955&lt;/option&gt;
+          &lt;option value=&quot;1954&quot; &gt;1954&lt;/option&gt;
+          &lt;option value=&quot;1953&quot; &gt;1953&lt;/option&gt;
+          &lt;option value=&quot;1952&quot; &gt;1952&lt;/option&gt;
+          &lt;option value=&quot;1951&quot; &gt;1951&lt;/option&gt;
+          &lt;option value=&quot;1950&quot; &gt;1950&lt;/option&gt;
+          &lt;option value=&quot;1949&quot; &gt;1949&lt;/option&gt;
+          &lt;option value=&quot;1948&quot; &gt;1948&lt;/option&gt;
+          &lt;option value=&quot;1947&quot; &gt;1947&lt;/option&gt;
+          &lt;option value=&quot;1946&quot; &gt;1946&lt;/option&gt;
+          &lt;option value=&quot;1945&quot; &gt;1945&lt;/option&gt;
+          &lt;option value=&quot;1944&quot; &gt;1944&lt;/option&gt;
+          &lt;option value=&quot;1943&quot; &gt;1943&lt;/option&gt;
+          &lt;option value=&quot;1942&quot; &gt;1942&lt;/option&gt;
+          &lt;option value=&quot;1941&quot; &gt;1941&lt;/option&gt;
+          &lt;option value=&quot;1940&quot; &gt;1940&lt;/option&gt;
+          &lt;option value=&quot;1939&quot; &gt;1939&lt;/option&gt;
+          &lt;option value=&quot;1938&quot; &gt;1938&lt;/option&gt;
+          &lt;option value=&quot;1937&quot; &gt;1937&lt;/option&gt;
+          &lt;option value=&quot;1936&quot; &gt;1936&lt;/option&gt;
+          &lt;option value=&quot;1935&quot; &gt;1935&lt;/option&gt;
+          &lt;option value=&quot;1934&quot; &gt;1934&lt;/option&gt;
+          &lt;option value=&quot;1933&quot; &gt;1933&lt;/option&gt;
+          &lt;option value=&quot;1932&quot; &gt;1932&lt;/option&gt;
+          &lt;option value=&quot;1931&quot; &gt;1931&lt;/option&gt;
+          &lt;option value=&quot;1930&quot; &gt;1930&lt;/option&gt;
+          &lt;option value=&quot;1929&quot; &gt;1929&lt;/option&gt;
+          &lt;option value=&quot;1928&quot; &gt;1928&lt;/option&gt;
+          &lt;option value=&quot;1927&quot; &gt;1927&lt;/option&gt;
+          &lt;option value=&quot;1926&quot; &gt;1926&lt;/option&gt;
+          &lt;option value=&quot;1925&quot; &gt;1925&lt;/option&gt;
+          &lt;option value=&quot;1924&quot; &gt;1924&lt;/option&gt;
+          &lt;option value=&quot;1923&quot; &gt;1923&lt;/option&gt;
+          &lt;option value=&quot;1922&quot; &gt;1922&lt;/option&gt;
+          &lt;option value=&quot;1921&quot; &gt;1921&lt;/option&gt;
+          &lt;option value=&quot;1920&quot; &gt;1920&lt;/option&gt;
+          &lt;option value=&quot;1919&quot; &gt;1919&lt;/option&gt;
+          &lt;option value=&quot;1918&quot; &gt;1918&lt;/option&gt;
+          &lt;option value=&quot;1917&quot; &gt;1917&lt;/option&gt;
+          &lt;option value=&quot;1916&quot; &gt;1916&lt;/option&gt;
+          &lt;option value=&quot;1915&quot; &gt;1915&lt;/option&gt;
+          &lt;option value=&quot;1914&quot; &gt;1914&lt;/option&gt;
+          &lt;option value=&quot;1913&quot; &gt;1913&lt;/option&gt;
+          &lt;option value=&quot;1912&quot; &gt;1912&lt;/option&gt;
+          &lt;option value=&quot;1911&quot; &gt;1911&lt;/option&gt;
+          &lt;option value=&quot;1910&quot; &gt;1910&lt;/option&gt;
+          &lt;option value=&quot;1909&quot; &gt;1909&lt;/option&gt;
+          &lt;option value=&quot;1908&quot; &gt;1908&lt;/option&gt;
+          &lt;option value=&quot;1907&quot; &gt;1907&lt;/option&gt;
+          &lt;option value=&quot;1906&quot; &gt;1906&lt;/option&gt;
+          &lt;option value=&quot;1905&quot; &gt;1905&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+        &lt;label&gt;Month:&lt;/label&gt;
+        &lt;select class=&quot;check-in__select&quot; name=&quot;month&quot; disabled&gt;
+          &lt;option value=&quot;&quot;&gt;Month&lt;/option&gt;
+          &lt;option value=&quot;1&quot; &gt;January&lt;/option&gt;
+          &lt;option value=&quot;2&quot; &gt;February&lt;/option&gt;
+          &lt;option value=&quot;3&quot; &gt;March&lt;/option&gt;
+          &lt;option value=&quot;4&quot; &gt;April&lt;/option&gt;
+          &lt;option value=&quot;5&quot; &gt;May&lt;/option&gt;
+          &lt;option value=&quot;6&quot; &gt;June&lt;/option&gt;
+          &lt;option value=&quot;7&quot; &gt;July&lt;/option&gt;
+          &lt;option value=&quot;8&quot; &gt;August&lt;/option&gt;
+          &lt;option value=&quot;9&quot; &gt;September&lt;/option&gt;
+          &lt;option value=&quot;10&quot; &gt;October&lt;/option&gt;
+          &lt;option value=&quot;11&quot; &gt;November&lt;/option&gt;
+          &lt;option value=&quot;12&quot; &gt;December&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+        &lt;label&gt;Day:&lt;/label&gt;
+        &lt;select class=&quot;check-in__select&quot; name=&quot;day&quot; disabled&gt;
+          &lt;option value=&quot;&quot;&gt;Day&lt;/option&gt;
+          &lt;option value=&quot;1&quot; &gt;1&lt;/option&gt;
+          &lt;option value=&quot;2&quot; &gt;2&lt;/option&gt;
+          &lt;option value=&quot;3&quot; &gt;3&lt;/option&gt;
+          &lt;option value=&quot;4&quot; &gt;4&lt;/option&gt;
+          &lt;option value=&quot;5&quot; &gt;5&lt;/option&gt;
+          &lt;option value=&quot;6&quot; &gt;6&lt;/option&gt;
+          &lt;option value=&quot;7&quot; &gt;7&lt;/option&gt;
+          &lt;option value=&quot;8&quot; &gt;8&lt;/option&gt;
+          &lt;option value=&quot;9&quot; &gt;9&lt;/option&gt;
+          &lt;option value=&quot;10&quot; &gt;10&lt;/option&gt;
+          &lt;option value=&quot;11&quot; &gt;11&lt;/option&gt;
+          &lt;option value=&quot;12&quot; &gt;12&lt;/option&gt;
+          &lt;option value=&quot;13&quot; &gt;13&lt;/option&gt;
+          &lt;option value=&quot;14&quot; &gt;14&lt;/option&gt;
+          &lt;option value=&quot;15&quot; &gt;15&lt;/option&gt;
+          &lt;option value=&quot;16&quot; &gt;16&lt;/option&gt;
+          &lt;option value=&quot;17&quot; &gt;17&lt;/option&gt;
+          &lt;option value=&quot;18&quot; &gt;18&lt;/option&gt;
+          &lt;option value=&quot;19&quot; &gt;19&lt;/option&gt;
+          &lt;option value=&quot;20&quot; &gt;20&lt;/option&gt;
+          &lt;option value=&quot;21&quot; &gt;21&lt;/option&gt;
+          &lt;option value=&quot;22&quot; &gt;22&lt;/option&gt;
+          &lt;option value=&quot;23&quot; &gt;23&lt;/option&gt;
+          &lt;option value=&quot;24&quot; &gt;24&lt;/option&gt;
+          &lt;option value=&quot;25&quot; &gt;25&lt;/option&gt;
+          &lt;option value=&quot;26&quot; &gt;26&lt;/option&gt;
+          &lt;option value=&quot;27&quot; &gt;27&lt;/option&gt;
+          &lt;option value=&quot;28&quot; &gt;28&lt;/option&gt;
+          &lt;option value=&quot;29&quot; &gt;29&lt;/option&gt;
+          &lt;option value=&quot;30&quot; &gt;30&lt;/option&gt;
+          &lt;option value=&quot;31&quot; &gt;31&lt;/option&gt;
+        &lt;/select&gt;
+      &lt;/span&gt;
+      &lt;span&gt;
+        &lt;a class=&quot;check-in__today&quot; href=&quot;javascript:;&quot; data-ol-link-track=&quot;CheckInForm|SetDateToday&quot;&gt;Today&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span class=&quot;check-in__actions&quot;&gt;
+      &lt;button class=&quot;check-in__delete-btn cta-btn cta-btn--delete invisible&quot; data-ol-link-track=&quot;CheckInForm|DeleteCheckIn&quot;&gt;Delete Event&lt;/button&gt;
+      &lt;button type=&quot;submit&quot; class=&quot;check-in__submit-btn cta-btn cta-btn--shell&quot; data-ol-link-track=&quot;CheckInForm|SubmitCheckIn&quot; disabled&gt;Submit&lt;/button&gt;
+    &lt;/span&gt;
+  &lt;/form&gt;
+&lt;/div&gt;
+
+&lt;/dialog&gt;
+
+
+
+
+
+
+&lt;form class=&quot;star-rating-form&quot; id=&quot;ratingsForm&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/ratings.json&quot;
+      property=&quot;reviewRating&quot; typeof=&quot;Rating&quot; vocab=&quot;http://schema.org/&quot;&gt;
+  &lt;meta property=&quot;worstRating&quot; content=&quot;1&quot;/&gt;
+  &lt;meta property=&quot;bestRating&quot; content=&quot;5&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;/books/OL50530408M&quot; name=&quot;edition_id&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;true&quot; name=&quot;redir&quot;/&gt;
+  &lt;div class=&quot;review&quot; id=&quot;starRatingSection&quot;&gt;
+    &lt;div class=&quot;stars&quot; data-ol-link-track=&quot;StarRating|BookRated&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;1&quot; name=&quot;rating&quot;
+        class=&quot;star-1&quot;
+        id=&quot;star-1&quot; /&gt;
+      &lt;label class=&quot;star star-1 &quot;
+        property=&quot;worstRating&quot;
+        for=&quot;star-1&quot;&gt;1&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;2&quot; name=&quot;rating&quot;
+        class=&quot;star-2&quot;
+        id=&quot;star-2&quot; /&gt;
+      &lt;label class=&quot;star star-2 &quot;
+        for=&quot;star-2&quot;&gt;2&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;3&quot; name=&quot;rating&quot;
+        class=&quot;star-3&quot;
+        id=&quot;star-3&quot; /&gt;
+      &lt;label class=&quot;star star-3 &quot;
+        for=&quot;star-3&quot;&gt;3&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;4&quot; name=&quot;rating&quot;
+        class=&quot;star-4&quot;
+        id=&quot;star-4&quot; /&gt;
+      &lt;label class=&quot;star star-4 &quot;
+        for=&quot;star-4&quot;&gt;4&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;5&quot; name=&quot;rating&quot;
+        class=&quot;star-5&quot;
+        id=&quot;star-5&quot; /&gt;
+      &lt;label class=&quot;star star-5 &quot;
+        property=&quot;bestRating&quot;
+        for=&quot;star-5&quot;&gt;5&lt;/label&gt;
+      
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- &lt;span class=&quot;star-rating__not-rated&quot;&gt;Rate&lt;/span&gt; --&gt;
+  &lt;button type=&quot;submit&quot; class=&quot;star-messaging hidden&quot;&gt;Clear my rating&lt;/button&gt;
+&lt;/form&gt;
+
+
+&lt;/div&gt;
+
+
+
+
+        &lt;hr&gt;
+
+        
+&lt;div class=&quot;modal-links&quot;&gt;
+  
+
+
+
+
+
+
+
+
+&lt;div class=&quot;&quot;&gt;
+  
+
+&lt;a href=&quot;/account/login?redirect=/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings&quot; class=&quot;observations-modal-link--redirect icon-link&quot; data-ol-link-track=ModalLinkClick|ReviewIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/reviews.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Review&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;/div&gt;
+
+  
+  
+
+&lt;form class=&quot;star-rating-form&quot; id=&quot;ratingsForm&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/ratings.json&quot;
+      property=&quot;reviewRating&quot; typeof=&quot;Rating&quot; vocab=&quot;http://schema.org/&quot;&gt;
+  &lt;meta property=&quot;worstRating&quot; content=&quot;1&quot;/&gt;
+  &lt;meta property=&quot;bestRating&quot; content=&quot;5&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;/books/OL50530408M&quot; name=&quot;edition_id&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;true&quot; name=&quot;redir&quot;/&gt;
+  &lt;div class=&quot;review&quot; id=&quot;starRatingSection&quot;&gt;
+    &lt;div class=&quot;stars&quot; data-ol-link-track=&quot;StarRating|BookRated&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;1&quot; name=&quot;rating&quot;
+        class=&quot;star-1&quot;
+        id=&quot;star-1&quot; /&gt;
+      &lt;label class=&quot;star star-1 &quot;
+        property=&quot;worstRating&quot;
+        for=&quot;star-1&quot;&gt;1&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;2&quot; name=&quot;rating&quot;
+        class=&quot;star-2&quot;
+        id=&quot;star-2&quot; /&gt;
+      &lt;label class=&quot;star star-2 &quot;
+        for=&quot;star-2&quot;&gt;2&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;3&quot; name=&quot;rating&quot;
+        class=&quot;star-3&quot;
+        id=&quot;star-3&quot; /&gt;
+      &lt;label class=&quot;star star-3 &quot;
+        for=&quot;star-3&quot;&gt;3&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;4&quot; name=&quot;rating&quot;
+        class=&quot;star-4&quot;
+        id=&quot;star-4&quot; /&gt;
+      &lt;label class=&quot;star star-4 &quot;
+        for=&quot;star-4&quot;&gt;4&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;5&quot; name=&quot;rating&quot;
+        class=&quot;star-5&quot;
+        id=&quot;star-5&quot; /&gt;
+      &lt;label class=&quot;star star-5 &quot;
+        property=&quot;bestRating&quot;
+        for=&quot;star-5&quot;&gt;5&lt;/label&gt;
+      
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- &lt;span class=&quot;star-rating__not-rated&quot;&gt;Rate&lt;/span&gt; --&gt;
+  &lt;button type=&quot;submit&quot; class=&quot;star-messaging hidden&quot;&gt;Clear my rating&lt;/button&gt;
+&lt;/form&gt;
+
+  
+  
+
+
+
+
+
+
+
+
+&lt;div class=&quot;&quot;&gt;
+  
+
+&lt;a href=&quot;/account/login?redirect=/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings&quot; class=&quot;notes-modal-link--redirect icon-link&quot; data-ol-link-track=ModalLinkClick|NoteIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/notes.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Notes&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+  &lt;div class=&quot;hidden&quot;&gt;
+    &lt;div id=&quot;sidebar-notes-metadata-form&quot; class=&quot;floaterAdd metadata-form&quot; data-context=&quot;{&amp;quot;id&amp;quot;: &amp;quot;sidebar-notes&amp;quot;}&quot;&gt;
+      &lt;div class=&quot;floaterHead&quot;&gt;
+        &lt;h2&gt;My Book Notes&lt;/h2&gt;
+        &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;form class=&quot;book-notes-form&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/notes.json&quot;&gt;
+        &lt;p&gt;My private notes about this edition:&lt;/p&gt;
+        &lt;div&gt;
+          &lt;textarea class=&quot;notes-modal-textarea&quot; name=&quot;notes&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;work_id&quot; value=&quot;OL25312237W&quot; /&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;OL50530408M&quot; /&gt;
+        &lt;div class=&quot;note-form-buttons&quot;&gt;
+          &lt;button class=&quot;delete-note-button cta-btn cta-btn--delete hidden&quot; type=&quot;button&quot;&gt;Delete Note&lt;/button&gt;
+          &lt;button class=&quot;update-note-button cta-btn cta-btn--shell&quot;&gt;Save Note&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  
+  
+
+
+
+
+
+&lt;div class=&quot;share-modal-wrapper&quot;&gt;
+  &lt;a href=&quot;javascript:;&quot; class=&quot;share-modal-link icon-link&quot; data-ol-link-track=ModalLinkClick|ShareIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/share.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+  &lt;div class=&quot;hidden&quot;&gt;
+    &lt;div id=&quot;social-modal-content&quot; class=&quot;floaterAdd&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;div class=&quot;floaterHead right-justify&quot;&gt;
+          &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;shareLinks cta-section&quot;&gt;
+          &lt;ul class=&quot;shareLinks-list&quot;&gt;
+              &lt;li&gt;
+                &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Facebook&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Facebook&quot;
+                    alt=&quot;Facebook&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/facebook.svg?v=2221df78e6776d3671b56fbed6732cd7&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Facebook&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;via=openlibrary&amp;amp;text=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Twitter&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Twitter&quot;
+                    alt=&quot;Twitter&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/twitter.svg?v=ec50fd8c4aa8205ba33750f580e76a5b&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Twitter&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;description=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Pinterest&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Pinterest&quot;
+                    alt=&quot;Pinterest&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/pinterest.svg?v=df62fe57a8c7caabbcc722e7b59b7367&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Pinterest&lt;/div&gt;
+              &lt;/li&gt;
+              
+            &lt;li&gt;
+              
+              &lt;a class=&quot;embed-work-btn&quot; title=&quot;Embed this book in your website&quot; data-ol-link-track=&quot;Share|Embed&quot;
+                onclick=&quot;prompt('Copy embed code to clipboard:', '&amp;lt;iframe frameborder=&amp;quot;0&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;400&amp;quot; src=&amp;quot;//openlibrary.orghttps://openlibrary.org/books/OL50530408M/widget&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;');&quot;&gt;
+                &lt;img
+                  alt=&quot;Embed icon&quot;
+                  class=&quot;share-link&quot;
+                  src=&quot;/static/images/embed.png?v=3cfbbb4731c6f5c37e543bc98579f357&quot;
+                  loading=&quot;lazy&quot;
+                &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Embed&lt;/div&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a class=&quot;copy-url-btn&quot; title=&quot;Copy url to clipboard&quot; data-ol-link-track=&quot;Share|CopyURL&quot;&gt;
+                  &lt;img
+                      alt=&quot;Copy URL icon&quot;
+                      class=&quot;share-link&quot;
+                      src=&quot;/static/images/copy_url.png?v=ee1e83c926d101bcf002dbfd4801f7e2&quot;
+                      loading=&quot;lazy&quot;
+                  &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Copy URL&lt;/div&gt;
+            &lt;/li&gt;
+
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+
+        &lt;div class=&quot;readers-stats__wrapper mobile&quot;&gt;
+          
+
+&lt;ul class=&quot;readers-stats  &quot; itemprop=&quot;aggregateRating&quot; itemscope itemtype=&quot;https://schema.org/AggregateRating&quot;&gt;
+  &lt;li class=&quot;avg-ratings&quot; onclick=&quot;location.href='#starRatingSection';&quot; data-ol-link-track=&quot;StarRating|StatsComponentClick&quot;&gt;
+    &lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;
+    &lt;span class=&quot;readers-stats__star--half&quot;&gt;★&lt;/span&gt;
+    &lt;span itemprop=&quot;ratingValue&quot;&gt;3.74&lt;/span&gt;
+    &lt;span class=&quot;dot&quot;&gt;·&lt;/span&gt;
+  &lt;/li&gt;
+
+  &lt;li class=&quot;readers-stats__review-count&quot;&gt;
+    &lt;span itemprop=&quot;reviewCount&quot;&gt;212&lt;/span&gt; Ratings
+  &lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;7359&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Want to read&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;576&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Currently reading&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;281&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Have read&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+          &lt;hr&gt;
+          
+&lt;div class=&quot;modal-links&quot;&gt;
+  
+
+
+
+
+
+
+
+
+&lt;div class=&quot;&quot;&gt;
+  
+
+&lt;a href=&quot;/account/login?redirect=/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings&quot; class=&quot;observations-modal-link--redirect icon-link&quot; data-ol-link-track=ModalLinkClick|ReviewIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/reviews.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Review&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+&lt;/div&gt;
+
+  
+  
+
+&lt;form class=&quot;star-rating-form&quot; id=&quot;ratingsForm&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/ratings.json&quot;
+      property=&quot;reviewRating&quot; typeof=&quot;Rating&quot; vocab=&quot;http://schema.org/&quot;&gt;
+  &lt;meta property=&quot;worstRating&quot; content=&quot;1&quot;/&gt;
+  &lt;meta property=&quot;bestRating&quot; content=&quot;5&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;/books/OL50530408M&quot; name=&quot;edition_id&quot;/&gt;
+  &lt;input type=&quot;hidden&quot; value=&quot;true&quot; name=&quot;redir&quot;/&gt;
+  &lt;div class=&quot;review&quot; id=&quot;starRatingSection&quot;&gt;
+    &lt;div class=&quot;stars&quot; data-ol-link-track=&quot;StarRating|BookRated&quot;&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;1&quot; name=&quot;rating&quot;
+        class=&quot;star-1&quot;
+        id=&quot;star-1&quot; /&gt;
+      &lt;label class=&quot;star star-1 &quot;
+        property=&quot;worstRating&quot;
+        for=&quot;star-1&quot;&gt;1&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;2&quot; name=&quot;rating&quot;
+        class=&quot;star-2&quot;
+        id=&quot;star-2&quot; /&gt;
+      &lt;label class=&quot;star star-2 &quot;
+        for=&quot;star-2&quot;&gt;2&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;3&quot; name=&quot;rating&quot;
+        class=&quot;star-3&quot;
+        id=&quot;star-3&quot; /&gt;
+      &lt;label class=&quot;star star-3 &quot;
+        for=&quot;star-3&quot;&gt;3&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;4&quot; name=&quot;rating&quot;
+        class=&quot;star-4&quot;
+        id=&quot;star-4&quot; /&gt;
+      &lt;label class=&quot;star star-4 &quot;
+        for=&quot;star-4&quot;&gt;4&lt;/label&gt;
+      &lt;input type=&quot;submit&quot; value=&quot;5&quot; name=&quot;rating&quot;
+        class=&quot;star-5&quot;
+        id=&quot;star-5&quot; /&gt;
+      &lt;label class=&quot;star star-5 &quot;
+        property=&quot;bestRating&quot;
+        for=&quot;star-5&quot;&gt;5&lt;/label&gt;
+      
+      &lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- &lt;span class=&quot;star-rating__not-rated&quot;&gt;Rate&lt;/span&gt; --&gt;
+  &lt;button type=&quot;submit&quot; class=&quot;star-messaging hidden&quot;&gt;Clear my rating&lt;/button&gt;
+&lt;/form&gt;
+
+  
+  
+
+
+
+
+
+
+
+
+&lt;div class=&quot;&quot;&gt;
+  
+
+&lt;a href=&quot;/account/login?redirect=/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings&quot; class=&quot;notes-modal-link--redirect icon-link&quot; data-ol-link-track=ModalLinkClick|NoteIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/notes.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Notes&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+  &lt;div class=&quot;hidden&quot;&gt;
+    &lt;div id=&quot;sidebar-notes-metadata-form&quot; class=&quot;floaterAdd metadata-form&quot; data-context=&quot;{&amp;quot;id&amp;quot;: &amp;quot;sidebar-notes&amp;quot;}&quot;&gt;
+      &lt;div class=&quot;floaterHead&quot;&gt;
+        &lt;h2&gt;My Book Notes&lt;/h2&gt;
+        &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;form class=&quot;book-notes-form&quot; method=&quot;POST&quot; action=&quot;/works/OL25312237W/notes.json&quot;&gt;
+        &lt;p&gt;My private notes about this edition:&lt;/p&gt;
+        &lt;div&gt;
+          &lt;textarea class=&quot;notes-modal-textarea&quot; name=&quot;notes&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;
+        &lt;/div&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;work_id&quot; value=&quot;OL25312237W&quot; /&gt;
+        &lt;input type=&quot;hidden&quot; name=&quot;edition_id&quot; value=&quot;OL50530408M&quot; /&gt;
+        &lt;div class=&quot;note-form-buttons&quot;&gt;
+          &lt;button class=&quot;delete-note-button cta-btn cta-btn--delete hidden&quot; type=&quot;button&quot;&gt;Delete Note&lt;/button&gt;
+          &lt;button class=&quot;update-note-button cta-btn cta-btn--shell&quot;&gt;Save Note&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+  
+  
+
+
+
+
+
+&lt;div class=&quot;share-modal-wrapper&quot;&gt;
+  &lt;a href=&quot;javascript:;&quot; class=&quot;share-modal-link icon-link&quot; data-ol-link-track=ModalLinkClick|ShareIcon&gt;
+  &lt;img class=&quot;icon-link__image&quot; src=&quot;/static/images/icons/share.svg&quot;&gt;
+  &lt;div class=&quot;icon-link__text&quot;&gt;Share&lt;/div&gt;
+&lt;/a&gt;
+
+
+
+  &lt;div class=&quot;hidden&quot;&gt;
+    &lt;div id=&quot;social-modal-content&quot; class=&quot;floaterAdd&quot;&gt;
+      &lt;div class=&quot;content&quot;&gt;
+        &lt;div class=&quot;floaterHead right-justify&quot;&gt;
+          &lt;a class=&quot;dialog--close&quot;&gt;&amp;times;&lt;span class=&quot;shift&quot;&gt;Close&lt;/span&gt;&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;shareLinks cta-section&quot;&gt;
+          &lt;ul class=&quot;shareLinks-list&quot;&gt;
+              &lt;li&gt;
+                &lt;a href=&quot;https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Facebook&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Facebook&quot;
+                    alt=&quot;Facebook&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/facebook.svg?v=2221df78e6776d3671b56fbed6732cd7&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Facebook&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://twitter.com/intent/tweet?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;via=openlibrary&amp;amp;text=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Twitter&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Twitter&quot;
+                    alt=&quot;Twitter&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/twitter.svg?v=ec50fd8c4aa8205ba33750f580e76a5b&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Twitter&lt;/div&gt;
+              &lt;/li&gt;
+              
+              &lt;li&gt;
+                &lt;a href=&quot;https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fopenlibrary.org%2Fworks%2FOL25312237W%2FControl_Your_Mind_and_Master_Your_Feelings%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&amp;amp;description=Check+this+out%3A+Control+Your+Mind+and+Master+Your+Feelings+by+Eric+Robertson+-+undifferentiated&quot; class=&quot;sansserif large&quot; target=&quot;_blank&quot;
+                  data-ol-link-track=&quot;Share|Pinterest&quot;&gt;
+                  &lt;img
+                    title=&quot;Share on Pinterest&quot;
+                    alt=&quot;Pinterest&quot; class=&quot;share-link&quot;
+                    src=&quot;/static/images/pinterest.svg?v=df62fe57a8c7caabbcc722e7b59b7367&quot;
+                    loading=&quot;lazy&quot;
+                  &gt;
+                &lt;/a&gt;
+                &lt;div class=&quot;share-source&quot;&gt;Pinterest&lt;/div&gt;
+              &lt;/li&gt;
+              
+            &lt;li&gt;
+              
+              &lt;a class=&quot;embed-work-btn&quot; title=&quot;Embed this book in your website&quot; data-ol-link-track=&quot;Share|Embed&quot;
+                onclick=&quot;prompt('Copy embed code to clipboard:', '&amp;lt;iframe frameborder=&amp;quot;0&amp;quot; width=&amp;quot;165&amp;quot; height=&amp;quot;400&amp;quot; src=&amp;quot;//openlibrary.orghttps://openlibrary.org/books/OL50530408M/widget&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;');&quot;&gt;
+                &lt;img
+                  alt=&quot;Embed icon&quot;
+                  class=&quot;share-link&quot;
+                  src=&quot;/static/images/embed.png?v=3cfbbb4731c6f5c37e543bc98579f357&quot;
+                  loading=&quot;lazy&quot;
+                &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Embed&lt;/div&gt;
+            &lt;/li&gt;
+
+            &lt;li&gt;
+              &lt;a class=&quot;copy-url-btn&quot; title=&quot;Copy url to clipboard&quot; data-ol-link-track=&quot;Share|CopyURL&quot;&gt;
+                  &lt;img
+                      alt=&quot;Copy URL icon&quot;
+                      class=&quot;share-link&quot;
+                      src=&quot;/static/images/copy_url.png?v=ee1e83c926d101bcf002dbfd4801f7e2&quot;
+                      loading=&quot;lazy&quot;
+                  &gt;
+              &lt;/a&gt;
+              &lt;div class=&quot;share-source&quot;&gt;Copy URL&lt;/div&gt;
+            &lt;/li&gt;
+
+          &lt;/ul&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;panel desktop-vendor&quot;&gt;
+      &lt;div class=&quot;btn-notice&quot;&gt;
+        
+
+
+        &lt;div class=&quot;cta-section&quot;&gt;
+          &lt;p class=&quot;cta-section-title&quot;&gt;Buy this book&lt;/p&gt;
+          
+&lt;span class=&quot;affiliate-links-section&quot; data-title=&quot;Control Your Mind and Master Your Feelings&quot; data-opts=&quot;{&amp;quot;isbn&amp;quot;: null, &amp;quot;asin&amp;quot;: null, &amp;quot;prices&amp;quot;: true}&quot;&gt;
+  
+&lt;div class=&quot;hidden loadingIndicator affiliate-links-loading&quot;&gt;
+  &lt;figure&gt;
+  &lt;img src=&quot;/images/ajax-loader-bar.gif&quot; alt=&quot;Loading indicator&quot; loading=&quot;lazy&quot;&gt;
+  &lt;figcaption style=&quot;
+      justify-content: center;
+      display: flex;
+  &quot;&gt;Fetching prices&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;/span&gt;
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;div class=&quot;editionAbout&quot;&gt;
+      
+
+&lt;span class=&quot;nav-bar-wrapper sticky desktop-only&quot;&gt;
+  &lt;ul class=&quot;nav-bar work-menu&quot;&gt;
+    &lt;li class=&quot;selected&quot;&gt;
+      &lt;a href=&quot;#overview&quot; data-ol-link-track=&quot;BookPageNav|Overview&quot;&gt;Overview&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#editions-list&quot; data-ol-link-track=&quot;BookPageNav|EditionTable&quot;&gt;
+        View 2 Editions
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#details&quot; data-ol-link-track=&quot;BookPageNav|Details&quot;&gt;Details&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#reader-observations&quot; data-ol-link-track=&quot;BookPageNav|Reviews&quot;&gt;
+        17 Reviews
+      &lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#lists-section&quot; data-ol-link-track=&quot;BookPageNav|Lists&quot;&gt;Lists&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;a href=&quot;#related-work-carousel&quot; data-ol-link-track=&quot;BookPageNav|RelatedBooks&quot;&gt;Related Books&lt;/a&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/span&gt;
+
+      &lt;div class=&quot;editionAll&quot;&gt;
+        
+&lt;div id=&quot;editTools&quot; class=&quot;edit&quot;&gt;
+    &lt;div id=&quot;editInfo&quot;&gt;
+        &lt;div class=&quot;brown smaller sansserif&quot;&gt;Last edited by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/user76289&quot; &gt;Ruslana Binko&lt;/a&gt;&lt;/div&gt;
+        &lt;div class=&quot;smallest gray sansserif&quot;&gt;September 20, 2023 | &lt;a href=&quot;/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings?m=history&quot; rel=&quot;nofollow&quot; title=&quot;View this template's edit history&quot;&gt;History&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;editButton&quot;&gt;
+      &lt;!-- FIXME: accesskey / keyboard shortcut needs i18n --&gt;
+      &lt;a
+        class=&quot;cta-btn cta-btn--vanilla&quot;
+        href=&quot;/books/OL50530408M/Control_Your_Mind_and_Master_Your_Feelings/edit?work_key=/works/OL25312237W&quot;
+        title=&quot;Edit this template&quot;
+        data-ol-link-track=&quot;CTAClick|Edit&quot;
+        accesskey=&quot;e&quot;
+        rel=&quot;nofollow&quot;
+    &gt;Edit&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;a id=&quot;overview&quot; name=&quot;overview&quot; class=&quot;section-anchor section-anchor--no-height&quot;&gt;&lt;/a&gt;
+      &lt;!-- (desktop only) --&gt;
+      
+&lt;div class=&quot;work-title-and-author desktop&quot;&gt;
+  &lt;span&gt;
+    &lt;div class=&quot;work-line&quot;&gt;
+        An edition of &lt;a href=&quot;/works/OL25312237W?edition=&quot;&gt;Control Your Mind and Master Your Feelings&lt;/a&gt;
+        &lt;span class=&quot;first-published-date&quot; title=&quot;First published in 2018&quot;&gt;
+          (2018)
+        &lt;/span&gt;
+    &lt;/div&gt;
+    &lt;h1 class=&quot;work-title&quot; itemprop=&quot;name&quot;&gt;Control Your Mind and Master Your Feelings&lt;/h1&gt;
+
+    &lt;h2 class=&quot;edition-byline&quot;&gt;
+      
+by &lt;a href=&quot;/authors/OL1573400A/Eric_Robertson_-_undifferentiated&quot; itemprop=&quot;author&quot;&gt;Eric Robertson - undifferentiated&lt;/a&gt;
+
+    &lt;/h2&gt;
+    
+
+&lt;ul class=&quot;readers-stats  &quot; itemprop=&quot;aggregateRating&quot; itemscope itemtype=&quot;https://schema.org/AggregateRating&quot;&gt;
+  &lt;li class=&quot;avg-ratings&quot; onclick=&quot;location.href='#starRatingSection';&quot; data-ol-link-track=&quot;StarRating|StatsComponentClick&quot;&gt;
+    &lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;&lt;span class=&quot;readers-stats__star&quot;&gt;★&lt;/span&gt;
+    &lt;span class=&quot;readers-stats__star--half&quot;&gt;★&lt;/span&gt;
+    &lt;span itemprop=&quot;ratingValue&quot;&gt;3.74&lt;/span&gt;
+    &lt;span class=&quot;dot&quot;&gt;·&lt;/span&gt;
+  &lt;/li&gt;
+
+  &lt;li class=&quot;readers-stats__review-count&quot;&gt;
+    &lt;span itemprop=&quot;reviewCount&quot;&gt;212&lt;/span&gt; Ratings
+  &lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;7359&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Want to read&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;576&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Currently reading&lt;/span&gt;&lt;/li&gt;
+  &lt;li class=&quot;reading-log-stat&quot;&gt;&lt;span class=&quot;readers-stats__stat&quot;&gt;281&lt;/span&gt; &lt;span class=&quot;readers-stats__label&quot;&gt;Have read&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/span&gt;
+
+&lt;/div&gt;
+
+
+      
+&lt;div class=&quot;compact-title hidden&quot;&gt;
+  &lt;span class=&quot;compact-title__heading&quot;&gt;Control Your Mind and Master Your Feelings&lt;/span&gt;
+  &lt;div class=&quot;compact-title__edit-btn&quot;&gt;
+    &lt;a
+      class=&quot;linkButton linkButton--large&quot;
+      href=&quot;/books/OL50530408M/Control_Your_Mind_and_Master_Your_Feelings/edit&quot;
+      title=&quot;Edit this template&quot;
+      data-ol-link-track=&quot;CTAClick|StickyEdit&quot;
+      rel=&quot;nofollow&quot;
+    &gt;Edit&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+      &lt;div class=&quot;book-description read-more&quot;&gt;
+          &lt;div class=&quot;read-more__content&quot; style=&quot;max-height:58px&quot;&gt;
+              
+&lt;p&gt;We oftentimes look towards the outside world to find the roots of our problems. However, most of the times, we should be looking inwards. Our mind and our emotions determine our state of being in the present moment. If those aspects are left unchecked, we can get easily overwhelmed and are left feeling unfulfilled every single day.
+&lt;/p&gt;
+&lt;p&gt;This book contains two manuscripts designed to help you discover the best and most efficient way to control your thoughts and master your feelings.
+&lt;/p&gt;
+&lt;p&gt;In the first part of the bundle called Breaking Overthinking, you will discover:
+&lt;/p&gt;
+&lt;p&gt;How overthinking can be detrimental to your social life. &lt;br/&gt;
+   The hidden dangers of overthinking and what can happen to you if it’s left untreated. &lt;br/&gt;
+   How to declutter your mind from all the noise of the modern world. &lt;br/&gt;
+   How overthinking affects your body, your energy levels, and your everyday mood. &lt;br/&gt;
+   How your surroundings affect your state of mind, and what you NEED to do in order to break out of that state. &lt;br/&gt;
+   Bad habits we perform every day and don’t even realize are destroying our sanity (and how to overcome them properly). &lt;br/&gt;
+   How to cut out toxic people from your life, which cloud your judgment and make you feel miserable.
+&lt;/p&gt;
+
+          &lt;/div&gt;
+          &lt;button class=&quot;read-more__toggle read-more__toggle--more&quot;&gt;Read more &amp;#9662&lt;/button&gt;
+&lt;button class=&quot;read-more__toggle read-more__toggle--less&quot;&gt;Read less &amp;#9650&lt;/button&gt;
+
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;edition-omniline&quot;&gt;
+          &lt;div class=&quot;edition-omniline-item&quot;&gt;
+            &lt;div&gt;Publish Date&lt;/div&gt;
+            &lt;span itemprop=&quot;datePublished&quot;&gt;2023&lt;/span&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;edition-omniline-item&quot;&gt;
+            &lt;div&gt;Publisher&lt;/div&gt;
+            &lt;span&gt;
+            &lt;a itemprop=&quot;publisher&quot; href=&quot;/publishers/Rabi_saroj&quot;
+               title=&quot;Show other books from Rabi saroj&quot;
+               &gt;Rabi saroj&lt;/a&gt;
+            &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;Tools&quot;&gt;
+        &lt;div class=&quot;panel mobile-vendor&quot;&gt;
+          &lt;div class=&quot;btn-notice&quot;&gt;
+            
+
+
+            &lt;div class=&quot;cta-section&quot;&gt;
+              &lt;p class=&quot;cta-section-title&quot;&gt;Buy this book&lt;/p&gt;
+              
+&lt;span class=&quot;affiliate-links-section&quot; data-title=&quot;Control Your Mind and Master Your Feelings&quot; data-opts=&quot;{&amp;quot;isbn&amp;quot;: null, &amp;quot;asin&amp;quot;: null, &amp;quot;prices&amp;quot;: true}&quot;&gt;
+  
+&lt;div class=&quot;hidden loadingIndicator affiliate-links-loading&quot;&gt;
+  &lt;figure&gt;
+  &lt;img src=&quot;/images/ajax-loader-bar.gif&quot; alt=&quot;Loading indicator&quot; loading=&quot;lazy&quot;&gt;
+  &lt;figcaption style=&quot;
+      justify-content: center;
+      display: flex;
+  &quot;&gt;Fetching prices&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;/span&gt;
+
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+    &lt;div class=&quot;subjects&quot;&gt;
+      &lt;div class=&quot;subjects-content&quot;&gt;
+        
+&lt;div class=&quot;section link-box&quot;&gt;
+  &lt;span class=&quot;clamp&quot; data-before=&quot;&amp;#9656; &quot;&gt;
+  &lt;h6&gt;Subjects&lt;/h6&gt;
+    &lt;a href=&quot;/subjects/self-help&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;Self-help&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/personal_development&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;personal development&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/emotional_intelligence&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;emotional intelligence&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/mindfulness&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;mindfulness&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/meditation&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;meditation&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/cognitive_behavioral_therapy&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;cognitive behavioral therapy&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/cbt&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;CBT&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/anxiety&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;anxiety&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/depression&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;depression&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/anger_management&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;anger management&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/stress_management&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;stress management&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/positive_thinking&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;positive thinking&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/self-control&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;self-control&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/mental_health&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;mental health&lt;/a&gt;,
+    &lt;a href=&quot;/subjects/emotional_well-being&quot; data-ol-link-track=&quot;BookOverview|SubjectClick&quot;&gt;emotional well-being&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+      &lt;a id=&quot;editions-list&quot; name=&quot;editions-list&quot; class=&quot;section-anchor&quot;&gt;&lt;/a&gt;
+      &lt;div class=&quot;tab-section&quot;&gt;
+        
+
+&lt;p class=&quot;small sansserif featured-count&quot;&gt;
+
+  Showing 2 featured editions.
+  &lt;a href=&quot;?mode=all&quot;&gt;View all 2 editions?&lt;/a&gt;
+&lt;/p&gt;
+&lt;table id=&quot;editions&quot; class=&quot;editions-table editions-table--progressively-enhanced&quot;&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+        &lt;th class=&quot;title&quot; title=&quot;&quot;&gt;&lt;a href=&quot;javascript:;&quot;&gt;Edition&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/th&gt;
+        &lt;th class=&quot;read&quot; title=&quot;&quot;&gt;&lt;a href=&quot;javascript:;&quot;&gt;Availability&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr class=&quot;highlight&quot;&gt;
+          
+          
+
+
+
+
+
+
+
+
+    &lt;td class=&quot;book&quot;&gt;
+      &lt;span class=&quot;hidden sort-key&quot;&gt;1&lt;/span&gt;
+      &lt;div class=&quot;cover&quot;&gt;
+          &lt;a href=&quot;/books/OL50530408M/Control_Your_Mind_and_Master_Your_Feelings&quot;&gt;&lt;img
+            src=&quot;/images/icons/avatar_book-sm.png&quot;
+            alt=&quot;Cover of: Control Your Mind and Master Your Feelings&quot;
+            title=&quot;Cover of: Control Your Mind and Master Your Feelings&quot;
+            loading=&quot;lazy&quot;
+          /&gt;&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;title&quot;&gt;
+        &lt;a href=&quot;/books/OL50530408M/Control_Your_Mind_and_Master_Your_Feelings&quot;&gt;
+          Control Your Mind and Master Your Feelings
+        &lt;/a&gt;
+        
+        
+        &lt;div class=&quot;published&quot;&gt;
+          2023, Rabi saroj
+        &lt;/div&gt;
+
+        &lt;div class=&quot;format&quot;&gt;
+          &lt;!-- TODO: this section is going to be difficult to properly internationalize --&gt;
+          &lt;!-- Formats are store as a raw string --&gt;
+          
+        &lt;/div&gt;
+
+        &lt;div class=&quot;hidden&quot;&gt;
+                 
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/td&gt;
+
+
+    &lt;td class=&quot;icon read &quot;&gt;
+      &lt;div class=&quot;hidden&quot;&gt;aaaa&lt;/div&gt;
+      &lt;div class=&quot;links&quot;&gt;
+        &lt;ul class=&quot;read&quot;&gt;
+          
+          &lt;li class=&quot;read-option&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;cta-button-group&quot;&gt;
+  &lt;span class=&quot;cta-btn cta-btn--no-pointer&quot;&gt;Not in Library&lt;/span&gt;
+&lt;/div&gt;
+
+
+
+&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+    &lt;/td&gt;
+
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          
+
+
+
+
+
+
+
+
+    &lt;td class=&quot;book&quot;&gt;
+      &lt;span class=&quot;hidden sort-key&quot;&gt;2&lt;/span&gt;
+      &lt;div class=&quot;cover&quot;&gt;
+          &lt;a href=&quot;/books/OL33899062M/Control_Your_Mind_and_Master_Your_Feelings&quot;&gt;&lt;img
+            src=&quot;//covers.openlibrary.org/b/id/12009823-S.jpg&quot;
+            alt=&quot;Cover of: Control Your Mind and Master Your Feelings&quot;
+            title=&quot;Cover of: Control Your Mind and Master Your Feelings&quot;
+            loading=&quot;lazy&quot;
+          /&gt;&lt;/a&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;title&quot;&gt;
+        &lt;a href=&quot;/books/OL33899062M/Control_Your_Mind_and_Master_Your_Feelings&quot;&gt;
+          Control Your Mind and Master Your Feelings: This Book Includes - Break Overthinking &amp;amp; Master Your Emotions
+        &lt;/a&gt;
+        
+        
+        &lt;div class=&quot;published&quot;&gt;
+          2018, Erik Robertson |||
+        &lt;/div&gt;
+
+        &lt;div class=&quot;format&quot;&gt;
+          &lt;!-- TODO: this section is going to be difficult to properly internationalize --&gt;
+          &lt;!-- Formats are store as a raw string --&gt;
+          Paperback
+          in &lt;a href=&quot;/languages/eng&quot;&gt;English&lt;/a&gt;
+          - body controll
+        &lt;/div&gt;
+
+        &lt;div class=&quot;hidden&quot;&gt;
+                1691706639 9781691706631
+        &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/td&gt;
+
+
+    &lt;td class=&quot;icon read inact&quot;&gt;
+      &lt;div class=&quot;hidden&quot;&gt;zzzz&lt;/div&gt;
+      &lt;div class=&quot;links&quot;&gt;
+        &lt;ul class=&quot;read&quot;&gt;
+          
+          &lt;li class=&quot;read-option&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class=&quot;cta-button-group&quot;&gt;
+  &lt;a
+    class=&quot;cta-btn&quot;
+    href=&quot;/books/OL33899062M&quot;
+    data-ol-link-track=&quot;CTAClick|NotInLibrary&quot;
+  &gt;Not in Library&lt;/a&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;div class=&quot;editions-table__links&quot;&gt;
+            &lt;span&gt;Libraries near you:&lt;/span&gt;
+            &lt;a href=&quot;
+
+https://worldcat.org/isbn/1691706639
+&quot;
+               title=&quot;Look for this edition at WorldCat&quot;&gt;WorldCat&lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/td&gt;
+
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p class=&quot;small sansserif edition-adder&quot;&gt;
+  &lt;a href=&quot;/books/add?work=/works/OL25312237W&quot; title=&quot;Add another edition of Control Your Mind and Master Your Feelings&quot;&gt;Add another edition?&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;!-- Admin only text doesn't need to be translated --&gt;
+
+      &lt;/div&gt;
+
+      &lt;a id=&quot;details&quot; name=&quot;details&quot; class=&quot;section-anchor&quot;&gt;&lt;/a&gt;
+      &lt;div class=&quot;tab-section edition-info&quot;&gt;
+        &lt;h2 class=&quot;details-title&quot; itemprop=&quot;name&quot;&gt;Book Details&lt;/h2&gt;
+        &lt;hr&gt;
+        &lt;div class=&quot;section&quot;&gt;
+          &lt;h3 class=&quot;list-header collapse&quot;&gt;ID Numbers&lt;/h3&gt;
+          &lt;dl class=&quot;meta&quot;&gt;
+              &lt;!-- FIXME: Identifier names need to be translated (I18N) --&gt;
+&lt;dt&gt;Open Library&lt;/dt&gt;
+&lt;dd class=&quot;object&quot; &gt;
+    OL50530408M
+&lt;/dd&gt;
+
+
+          
+          &lt;/dl&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      
+&lt;a id=&quot;reader-observations&quot; name=&quot;reader-observations&quot; class=&quot;section-anchor&quot;&gt;&lt;/a&gt;
+
+&lt;div class=&quot;tab-section review-component&quot;&gt;
+  &lt;div class=&quot;reviews-header&quot;&gt;
+    &lt;h2 class=&quot;observation-title&quot;&gt;Community Reviews (17)&lt;/h2&gt;
+    &lt;a class=&quot;observations-feedback&quot; href=&quot;https://forms.gle/wEr1dw3tLQYrC7Rr6&quot;&gt;Feedback?&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;reviews&quot;&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How would you rate the pacing of this book?&quot;&gt;Pace &lt;span class=&quot;reviews__count&quot;&gt;5&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Slow paced
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        37%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Medium paced
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        37%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Meandering
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        12%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Fast paced
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        12%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How much did you enjoy reading this book?&quot;&gt;Enjoyability &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Neutral
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        40%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Boring
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        20%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Engaging
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        20%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Exciting
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        20%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How clearly was this book written and presented?&quot;&gt;Clarity &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Clearly written
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        16%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Well organized
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        16%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Confusing
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        16%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Disorganized
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        16%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Dense
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        8%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Effective explanations
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        8%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Succinct
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        8%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Incomprehensible
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        8%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How would you rate the difficulty of this book for a general audience?&quot;&gt;Difficulty &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Advanced
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        22%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Layman
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        22%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Expert
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        11%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Intermediate
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        11%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Beginner
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        11%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        University
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        11%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Juvenile
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        11%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;What are the genres of this book?&quot;&gt;Genres &lt;span class=&quot;reviews__count&quot;&gt;3&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Fiction
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Research
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Technical
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Anthology
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Mystery
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Fantasy
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Sci-fi
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        14%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;What are the moods of this book?&quot;&gt;Mood &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Emotional
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Inspiring
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How did you feel about this book and do you recommend it?&quot;&gt;Impressions &lt;span class=&quot;reviews__count&quot;&gt;3&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Recommend
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        100%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;How would you rate or describe the length of this book?&quot;&gt;Length &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Long
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Medium
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;What text features does this book utilize?does this book make use of?&quot;&gt;Features &lt;span class=&quot;reviews__count&quot;&gt;1&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Tables, diagrams, and figures
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        100%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;Does this book contain objectionable content?&quot;&gt;Content Warnings &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Adult themes
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Insensitivity
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        50%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;span class=&quot;review__category&quot;&gt;
+    &lt;span class=&quot;reviews__label&quot; title=&quot;What type of verbiage, nomenclature, or symbols are employed in this book?&quot;&gt;Style &lt;span class=&quot;reviews__count&quot;&gt;2&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Technical
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        66%
+      &lt;/span&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;reviews__pill&quot;&gt;
+      &lt;span class=&quot;reviews__value&quot;&gt;
+        Jargony
+      &lt;/span&gt;
+      &lt;span class=&quot;percentage&quot;&gt;
+        33%
+      &lt;/span&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;review-cta&quot;&gt;
+    &lt;a class=&quot;login-link&quot; href=&quot;/account/login?redirect=/works/OL25312237W#reader-observations&quot;&gt;+ Log in to add your community review&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+      &lt;a id=&quot;lists-section&quot; name=&quot;lists-section tab-section&quot; class=&quot;section-anchor&quot;&gt;&lt;/a&gt;
+      &lt;div class=&quot;workFooter tab-section&quot;&gt;
+        
+        
+        &lt;div class=&quot;lists-heading&quot;&gt;
+          &lt;h2 class=&quot;lists-title&quot;&gt;Lists&lt;/h2&gt;
+          &lt;a href=&quot;/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings/lists&quot;&gt;See All&lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;user-book-options&quot;&gt;
+          &lt;div class=&quot;Tools tools-override&quot;&gt;
+            
+
+&lt;div class=&quot;lists-widget-container&quot;&gt;
+
+
+
+&lt;ul id=&quot;list-lists&quot; class=&quot;listLists&quot;&gt;
+  
+&lt;li  &gt;
+    &lt;span class=&quot;image&quot;&gt;
+      &lt;a href=&quot;/people/st_aisyah_muthmainnah/lists/OL249350L&quot;&gt;&lt;img src=&quot;//covers.openlibrary.org/b/id/12009823-S.jpg&quot; alt=&quot;Cover of: Cha&quot; title=&quot;Cover of: Cha&quot; loading=&quot;lazy&quot;/&gt;&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;data&quot;&gt;
+        &lt;span class=&quot;label&quot;&gt;
+            &lt;a href=&quot;/people/st_aisyah_muthmainnah/lists/OL249350L&quot; data-list-title=&quot;Cha&quot; title=&quot;See this list&quot;&gt;Cha&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;owner&quot;&gt;from &lt;a href=&quot;/people/st_aisyah_muthmainnah&quot;&gt;St Aisyah Muthmainnah&lt;/a&gt;&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/li&gt;
+
+
+
+&lt;li  &gt;
+    &lt;span class=&quot;image&quot;&gt;
+      &lt;a href=&quot;/people/ayushi_kumari892/lists/OL249334L&quot;&gt;&lt;img src=&quot;//covers.openlibrary.org/b/id/12009823-S.jpg&quot; alt=&quot;Cover of: Book&quot; title=&quot;Cover of: Book&quot; loading=&quot;lazy&quot;/&gt;&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;data&quot;&gt;
+        &lt;span class=&quot;label&quot;&gt;
+            &lt;a href=&quot;/people/ayushi_kumari892/lists/OL249334L&quot; data-list-title=&quot;Book&quot; title=&quot;See this list&quot;&gt;Book&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;owner&quot;&gt;from &lt;a href=&quot;/people/ayushi_kumari892&quot;&gt;Ayushi Kumari892&lt;/a&gt;&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/li&gt;
+
+
+
+&lt;li  &gt;
+    &lt;span class=&quot;image&quot;&gt;
+      &lt;a href=&quot;/people/shubhangi_pingale/lists/OL249185L&quot;&gt;&lt;img src=&quot;//covers.openlibrary.org/b/id/12009823-S.jpg&quot; alt=&quot;Cover of: Dhanu&quot; title=&quot;Cover of: Dhanu&quot; loading=&quot;lazy&quot;/&gt;&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;data&quot;&gt;
+        &lt;span class=&quot;label&quot;&gt;
+            &lt;a href=&quot;/people/shubhangi_pingale/lists/OL249185L&quot; data-list-title=&quot;Dhanu&quot; title=&quot;See this list&quot;&gt;Dhanu&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;owner&quot;&gt;from &lt;a href=&quot;/people/shubhangi_pingale&quot;&gt;Shubhangi Pingale&lt;/a&gt;&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/li&gt;
+
+
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+            
+
+&lt;div class=&quot;lists-widget-container&quot;&gt;
+
+
+
+&lt;ul id=&quot;list-lists&quot; class=&quot;listLists&quot;&gt;
+  
+&lt;li  &gt;
+    &lt;span class=&quot;image&quot;&gt;
+      &lt;a href=&quot;/people/dominic_xaviyer/lists/OL245377L&quot;&gt;&lt;img src=&quot;/images/icons/avatar_book-sm.png&quot; alt=&quot;Cover of: &#x1f98b;⁂༄٨ℝﺂ&#x1d598;&#x1d4ee;༄⁂&#x1f98b;&quot; title=&quot;Cover of: &#x1f98b;⁂༄٨ℝﺂ&#x1d598;&#x1d4ee;༄⁂&#x1f98b;&quot; loading=&quot;lazy&quot;/&gt;&lt;/a&gt;
+    &lt;/span&gt;
+    &lt;span class=&quot;data&quot;&gt;
+        &lt;span class=&quot;label&quot;&gt;
+            &lt;a href=&quot;/people/dominic_xaviyer/lists/OL245377L&quot; data-list-title=&quot;&#x1f98b;⁂༄٨ℝﺂ&#x1d598;&#x1d4ee;༄⁂&#x1f98b;&quot; title=&quot;See this list&quot;&gt;&#x1f98b;⁂༄٨ℝﺂ&#x1d598;&#x1d4ee;༄⁂&#x1f98b;&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;owner&quot;&gt;from &lt;a href=&quot;/people/dominic_xaviyer&quot;&gt;Dominic Xaviyer&lt;/a&gt;&lt;/span&gt;
+    &lt;/span&gt;
+&lt;/li&gt;
+
+
+
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;a id=&quot;related-work-carousel&quot; name=&quot;related-work-carousel tab-section&quot; class=&quot;section-anchor&quot;&gt;&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;RelatedWorksCarousel&quot; data-workid=&quot;OL25312237W&quot;&gt;
+    
+&lt;div class=&quot;hidden loadingIndicator carousel-loading&quot;&gt;
+  &lt;figure&gt;
+  &lt;img src=&quot;/images/ajax-loader-bar.gif&quot; alt=&quot;Loading indicator&quot; loading=&quot;lazy&quot;&gt;
+  &lt;figcaption style=&quot;
+      justify-content: center;
+      display: flex;
+  &quot;&gt;Loading Related Books&lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+  &lt;/div&gt;
+
+  
+
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;pageHistory&quot;&gt;
+    &lt;div class=&quot;head&quot;&gt;
+        &lt;h2 class=&quot;collapse inline&quot;&gt;
+            History
+        &lt;/h2&gt;
+        &lt;ul class=&quot;pageHistory__list inline&quot;&gt;
+        &lt;li class=&quot;title inline&quot;&gt;Created September 27, 2021&lt;/li&gt;
+        &lt;li class=&quot;link inline&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W/Control_Your_Mind_and_Master_Your_Feelings?m=history&quot;&gt;5 revisions&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        
+        &lt;span id=&quot;historyTools&quot; class=&quot;pageHistory__tools smaller brown sansserif&quot;&gt;
+            Download catalog record:
+            &lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W.rdf&quot;&gt;RDF&lt;/a&gt;
+            /
+            &lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W.json&quot;&gt;JSON&lt;/a&gt;
+        &lt;/span&gt;
+        
+    &lt;/div&gt;
+
+    &lt;table class=&quot;history&quot;&gt;
+        &lt;tbody&gt;
+            &lt;tr&gt;            &lt;td class=&quot;timestamp&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W?v=5&quot; title=&quot;View revision 5&quot;&gt;September 20, 2023&lt;/a&gt;&lt;/td&gt;
+            &lt;td class=&quot;timestamp&quot;&gt;
+                Edited by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/user76289&quot; class=&quot;truncate&quot; &gt;Ruslana Binko&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class=&quot;detail&quot;&gt;
+
+&lt;em&gt;Edited without comment.&lt;/em&gt;
+&lt;/td&gt;
+            
+&lt;/tr&gt;
+            &lt;tr&gt;            &lt;td class=&quot;timestamp&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W?v=4&quot; title=&quot;View revision 4&quot;&gt;August 21, 2023&lt;/a&gt;&lt;/td&gt;
+            &lt;td class=&quot;timestamp&quot;&gt;
+                Edited by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/ScarTissue&quot; class=&quot;truncate&quot; &gt;Drini&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class=&quot;detail&quot;&gt;
+
+&lt;em&gt;Edited without comment.&lt;/em&gt;
+&lt;/td&gt;
+            
+&lt;/tr&gt;
+            &lt;tr&gt;            &lt;td class=&quot;timestamp&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W?v=3&quot; title=&quot;View revision 3&quot;&gt;October 31, 2022&lt;/a&gt;&lt;/td&gt;
+            &lt;td class=&quot;timestamp&quot;&gt;
+                Edited by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/ImportBot&quot; class=&quot;truncate&quot; &gt;ImportBot&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class=&quot;detail&quot;&gt;
+
+import existing book
+&lt;/td&gt;
+            
+&lt;/tr&gt;
+            &lt;tr&gt;            &lt;td class=&quot;timestamp&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W?v=2&quot; title=&quot;View revision 2&quot;&gt;September 27, 2021&lt;/a&gt;&lt;/td&gt;
+            &lt;td class=&quot;timestamp&quot;&gt;
+                Edited by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/manom8670&quot; class=&quot;truncate&quot; &gt;Matt Mano&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class=&quot;detail&quot;&gt;
+
+&lt;em&gt;Edited without comment.&lt;/em&gt;
+&lt;/td&gt;
+            
+&lt;/tr&gt;
+            &lt;tr&gt;            &lt;td class=&quot;timestamp&quot;&gt;&lt;a rel=&quot;nofollow&quot; href=&quot;/works/OL25312237W?v=1&quot; title=&quot;View revision 1&quot;&gt;September 27, 2021&lt;/a&gt;&lt;/td&gt;
+            &lt;td class=&quot;timestamp&quot;&gt;
+                Created by &lt;a rel=&quot;nofollow&quot; href=&quot;/people/manom8670&quot; class=&quot;truncate&quot; &gt;Matt Mano&lt;/a&gt;
+            &lt;/td&gt;
+            &lt;td class=&quot;detail&quot;&gt;
+
+Added new book.
+&lt;/td&gt;
+            
+&lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;
+&lt;/div&gt;
+
+
+
+&lt;/div&gt;
+
+
+  &lt;/div&gt;
+
+
+
+
+&lt;!--For analytics--&gt;
+&lt;div class=&quot;clearfix&quot;&gt;&lt;/div&gt;
+
+
+&lt;footer&gt;
+  &lt;div id=&quot;footer-content&quot; &gt;
+    &lt;div id=&quot;footer-links&quot;&gt;
+      &lt;div&gt;
+        &lt;h2&gt;Open Library&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/about/vision&quot;&gt;Vision&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/volunteer&quot;&gt;Volunteer&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/partner-with-us&quot;&gt;Partner With Us&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://archive.org/about/jobs.php&quot; title=&quot;Jobs&quot;&gt;Careers&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://blog.openlibrary.org/&quot;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://archive.org/about/terms.php&quot;&gt;Terms of Service&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://archive.org/donate/?platform=ol&amp;origin=olwww-TopNavDonateButton&quot;&gt;Donate&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;Discover&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/&quot; title=&quot;Go home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/search&quot; title=&quot;Explore Books&quot;&gt;Books&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/search/authors&quot; title=&quot;Explore authors&quot;&gt;Authors&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/subjects&quot; title=&quot;Explore subjects&quot;&gt;Subjects&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/collections&quot; title=&quot;Explore collections&quot;&gt;Collections&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/advancedsearch&quot;&gt;Advanced Search&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#top&quot; title=&quot;Navigate to top of this page&quot;&gt;Return to Top&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;Develop&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/developers&quot; title=&quot;Explore Open Library Developer Center&quot;&gt;Developer Center&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/developers/api&quot; title=&quot;Explore Open Library APIs&quot;&gt;API Documentation&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/developers/dumps&quot; title=&quot;Bulk Open Library data&quot;&gt;Bulk Data Dumps&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/internetarchive/openlibrary/wiki/Writing-Bots&quot; title=&quot;Write a bot&quot;&gt;Writing Bots&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;Help&lt;/h2&gt;
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;/help&quot;&gt;Help Center&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/contact?path=%2Fworks%2FOL25312237W%3Fedition%3Dkey%25253A%252Fbooks%252FOL33899062M&quot; title=&quot;Problems&quot;&gt;Report A Problem&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/help/faq/editing&quot; title=&quot;Suggest Edits&quot;&gt;Suggesting Edits&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;/books/add&quot; title=&quot;Add a new book to Open Library&quot;&gt;Add a Book&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/internetarchive/openlibrary/releases&quot; title=&quot;Release Notes&quot;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;aside&gt;
+          &lt;a class=&quot;footer-icon&quot; title=&quot;Twitter&quot; href=&quot;https://twitter.com/OpenLibrary&quot;&gt;&lt;img src=&quot;/static/images/tweet.svg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/a&gt;
+          &lt;a class=&quot;footer-icon&quot; title=&quot;GitHub&quot; href=&quot;https://github.com/internetarchive/openlibrary&quot;&gt;&lt;img src=&quot;/static/images/github.svg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/a&gt;
+        &lt;/aside&gt;
+      &lt;/div&gt;
+      &lt;div&gt;
+        &lt;h2&gt;Change Website Language&lt;/h2&gt;
+        
+&lt;ul class=&quot;locale-options &quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;cs&quot; data-lang-id=&quot;cs&quot; title=&quot;Czech&quot;&gt;Čeština (cs)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;de&quot; data-lang-id=&quot;de&quot; title=&quot;German&quot;&gt;Deutsch (de)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;en&quot; data-lang-id=&quot;en&quot; title=&quot;English&quot;&gt;English (en)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;es&quot; data-lang-id=&quot;es&quot; title=&quot;Spanish&quot;&gt;Español (es)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;fr&quot; data-lang-id=&quot;fr&quot; title=&quot;French&quot;&gt;Français (fr)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;hr&quot; data-lang-id=&quot;hr&quot; title=&quot;Croatian&quot;&gt;Hrvatski (hr)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;it&quot; data-lang-id=&quot;it&quot; title=&quot;Italian&quot;&gt;Italiano (it)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;pt&quot; data-lang-id=&quot;pt&quot; title=&quot;Portuguese&quot;&gt;Português (pt)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;hi&quot; data-lang-id=&quot;hi&quot; title=&quot;Hindi&quot;&gt;हिंदी (hi)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;sc&quot; data-lang-id=&quot;sc&quot; title=&quot;Sardinian&quot;&gt;Sardu (sc)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;te&quot; data-lang-id=&quot;te&quot; title=&quot;Telugu&quot;&gt;తెలుగు (te)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;uk&quot; data-lang-id=&quot;uk&quot; title=&quot;Ukrainian&quot;&gt;Українська (uk)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot; lang=&quot;zh&quot; data-lang-id=&quot;zh&quot; title=&quot;Chinese&quot;&gt;中文 (zh)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;hr&gt;
+    &lt;div id=&quot;footer-details&quot;&gt;
+      &lt;img id=&quot;archive-logo&quot; src=&quot;/static/images/pantheon.png&quot; alt=&quot;Open Library logo&quot; loading=&quot;lazy&quot;&gt;
+      &lt;div id=&quot;legal-details&quot; &gt;
+        &lt;span&gt;Open Library is an initiative of the &lt;a href=&quot;//archive.org/&quot;&gt;Internet Archive&lt;/a&gt;, a 501(c)(3) non-profit, building a digital library of Internet sites and other cultural artifacts in  digital form. Other &lt;a href=&quot;//archive.org/projects/&quot;&gt;projects&lt;/a&gt; include the &lt;a href=&quot;//archive.org/web/&quot;&gt;Wayback Machine&lt;/a&gt;, &lt;a href=&quot;//archive.org/&quot;&gt;archive.org&lt;/a&gt; and &lt;a href=&quot;//archive-it.org&quot;&gt;archive-it.org&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div id=&quot;version-details&quot;&gt;
+        &lt;span class=&quot;version&quot;&gt;version &lt;a href=&quot;https://github.com/internetarchive/openlibrary/commit/c1e1dfe&quot;&gt;c1e1dfe&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/footer&gt;
+
+
+&lt;!--Will be moved inside index.js--&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  if (&quot;serviceWorker&quot; in navigator) {
+    window.addEventListener('load', () =&gt; {
+      navigator.serviceWorker.register(&quot;/sw.js&quot;).then(registration =&gt; {
+
+      }).catch(error =&gt; {
+        console.log(&quot;ServiceWorker registration failed&quot;);
+      });
+    });
+  }
+
+  window.addEventListener('beforeinstallprompt', (e) =&gt; {
+    // Prevent the mini-infobar from appearing on mobile
+    e.preventDefault();
+  });
+&lt;/script&gt;
+
+&lt;!-- Must be loaded after jquery --&gt;
+&lt;script src=&quot;/cdn/archive.org/analytics.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;script src=&quot;/static/build/all.js?v=82e9cf626ecef15255eb3b200dbf0737&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+&lt;!-- Passes total_time for analytics to ol.analytics.js --&gt;
+&lt;div class=&quot;analytics-stats-time-calculator&quot; data-time=&quot;460.5593681335449&quot;&gt;&lt;/div&gt;
+
+&lt;!-- clear the window.q and setup the jQuery plugins --&gt;
+&lt;script&gt;
+$( function () {
+    var i;
+    for ( i = 0; i &lt; window.q.length; i++ ) {
+        $( window.q[i] );
+    }
+    window.q = [];
+} );
+
+if (typeof archive_analytics !== 'undefined') {
+  archive_analytics.set_up_event_tracking();
+}
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+  ?[32mAnd ?[0m?[32mget author from API?[0m                                                 ?[90m# stepdefinitions.APICall.getRequestWithQueryParam()?[0m
+APIEric Robertson - undifferentiated
+2024-03-25 00:44:34 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+Cука блять йобаний стидEric Robertson - undifferentiated
+2024-03-25 00:44:34 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+UIEric Robertson - undifferentiated
+2024-03-25 00:44:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+Cука блять йобаний стидEric Robertson - undifferentiated
+2024-03-25 00:44:35 INFO  page.BookDetailsPage:32 - Getting text of element: Author inscription 
+  ?[32mThen ?[0m?[32mCompare author from api and ui?[0m                                     ?[90m# stepdefinitions.stepDefinitions.compareNameOfAuthor()?[0m
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>Starting ChromeDriver 123.0.6312.58 (6b4b19e9dfbb93aa414dc045bd445287977d8d7a-refs/branch-heads/6312_46@{#3}) on port 10939
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.2</a> at Mar 25, 2024 12:44:35 AM</p>
+</div>
+</div>
+</body>
+</html>
